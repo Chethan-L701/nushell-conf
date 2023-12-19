@@ -1,0 +1,5304 @@
+clear
+ls
+clear
+which ls
+clear
+touch hi
+clear
+ls
+rm hi
+clear
+ls
+tree
+clear
+tree -c
+man
+help 
+help ls
+clear
+help ls
+clear
+help tree
+tree -h
+tree --h
+clear
+less
+man
+clear
+help nu
+clear
+git -h
+clear
+ls
+clear
+tsc -
+tsc --init
+clear
+touch index.ts
+clear
+tsc
+node out\index.js
+tsc
+node out\index.js
+clear
+pwd
+ls
+ls | sort-by size 
+ls | sort-by size | reverse
+ls | sort-by date | reverse
+ls | sort-by modified | reverse
+clear
+ls | sort-by type | reverse
+rm -rf .chocolatey
+clear
+ls | sort-by type | reverse
+top
+ps
+clear
+ps
+ps | sort-by mem | reverse
+clear
+date
+date now
+date now | table
+date now |date to-table
+ps | where mem > 300 
+ps | where mem > 300mb 
+ps | where cpu > 1
+clear
+ps | where cpu > 1
+clear
+sys
+sys | get cpu
+clear
+date now |date to-table
+date now |date to-table | select minute
+from
+clear
+ps | where mem > 300mb | select pid name mem
+ps | where mem > 300mb | select pid name mem virtual
+sys | get cpu
+clear
+which
+which ls
+which touch
+clear
+path
+path basename
+clear
+ls | sort-by type | reverse
+ls | where size > 0 |sort-by type | reverse
+ls | where size > 0b |sort-by type | reverse
+clear
+config
+config nu
+echo $nu.config-path
+code .\AppData\Roaming\nushell\config.nu
+clear
+info
+use
+use std::io;
+use std
+ls | where size > 0b |sort-by type | reverse
+clear
+pwd
+starship
+ps | where mem > 300mb | select pid name mem virtual | each { |it| ^echo $it}
+ps | where mem > 300mb | select pid | each { |it| ^echo $it}
+ps | where mem > 300mb | select name | each { |it| ^echo $it}
+ps | where mem > 300mb | each { |it| ^echo $it}
+sys 
+sys | get host.hostname
+clear
+ls
+ls | select name
+ls | select name | each { |it| ^echo $it }
+ls | select name | each { |it| ^echo "$it" }
+ls | select name | grep -G Music
+grep
+winget install grep
+clear
+gcc
+winget install gcc
+winget install gcc-13
+winget install mingw64
+winget search gcc
+clear
+vim
+ed
+notepad
+echo $nu.config-path
+clear
+winget install starship
+echo $nu.env-path
+code C:\Users\Cheth\AppData\Roaming\nushell\env.nu
+code .\AppData\Roaming\nushell\config.nu
+echo $nu.config-path
+code .\AppData\Roaming\nushell\config.nu
+clear
+ls
+clear
+ls
+cp .\OneDrive\Pictures\nuicon.png `C:\Program Files\nu\nuicon.png`
+clear
+sudo
+clear
+code .\AppData\Roaming\nushell\config.nu
+clear
+ls */*/*.html
+ls **/*.html
+ls **/index.html
+clear
+cleat
+clear
+cd
+clear
+rustup 
+rustup update
+rustup update stable
+rustup toolchain stable
+rustup show
+rustup update stable
+rustup update cargo
+cargo update
+clear
+cd /
+ls **/*
+clear
+cd
+fzf
+winget install fzf
+fzf
+.
+clear
+fzf
+clear
+lazygit
+winget install go
+winget install GoLang.go
+go install lazygit
+go install lazygit@latest
+go install github.com/jesseduffield/lazygit@latest
+runas user:Admistrator pwd
+runas /user:Admistrator pwd
+runas /user:Administrator pwd
+runas /user:Chet pwd
+runas /user:Chethan.l pwd
+clear
+net user Administrator /active:yes
+net user Administrator *
+net user Administrator password
+net user Administrator password QW12er!@
+net user Administrator password
+runas /user:Chethan.l pwd
+runas /user:Administrator pwd
+runas /user:Administrator "pwd"
+pwd
+runas /user:Administrator "cmd"
+net user Administrator /Delete
+net user Administrator 
+net user Administrator /delete
+net user Administrator *
+net user Administrator /active:no
+clear
+runas /user:Administrator /savecred "cmd"
+su
+runas /user:Administrator /savecred "cmd"
+net user Administrator /active:yes
+runas /user:Administrator /savecred "cmd"
+net user Administrator /active:no
+clear
+runas /user:Administrator /savecred "cmd"
+cd
+clear
+ls **/index.ts
+clear
+py -m pip install --upgrade pip
+py -m pip install numpy
+echo $path
+Workspace\VSCode\web\
+ls
+cd TS\
+ls
+tree -c
+tree | colorcpl.exe 
+tree | color
+tree | table
+tree 
+tree .
+ls
+ll -AR
+ls -A
+ls -a
+ls -aR
+du
+ncdu
+clear
+export
+clear
+def
+"def abc[] {1, 2, 3, 4, 5}" | save "demo.nu"
+source 
+source "demo.nu"
+rm demo.nu demo.txt
+clear
+ls
+cleear
+clear
+ls
+clear
+pwd
+clear
+ls
+tree
+clear
+tree
+tree.exe
+tree
+cd
+tree
+clear
+Workspace\VSCode\Intership\Session1\
+TREE
+clear
+ls -R
+ls --all
+ls -a -l
+ls -a -l -d
+cleeeear
+clear
+tree
+cd Workspace\
+tree
+tree /f
+clear
+cd
+clear
+tree /f
+clear
+tree /f
+ps
+top
+winget install htop
+clear
+lazygit
+clear
+cd `Workspace\Visual Studio\BigInteger\`
+ls
+tree /f
+clear
+ls
+clear
+ls
+clear
+nvim
+clear
+❤️❤️❤️❤️❤️❤️
+clear
+ls
+lazygit
+clear
+winget install neovim.neovim
+nvim
+winget uninstall neovim.neovim
+cd AppData\
+ls
+cd Local\
+ls
+du
+du | get nvim nvim-data
+du | select nvim nvim-data
+du.nvim
+du | get nvim
+du | where path == "nvim"
+du | where path == "nvim-data"
+tree /f nvim-data
+rm -rfv nvim
+rm -rfv nvim-data
+clear
+du | where path == "nvim-data"
+du | where path == "nvim"
+clear
+nvim
+clear
+exit
+nu
+clear
+tmux
+clear
+ls | length 
+tree /f | length
+help tree
+tree -h
+tree /help
+tree /h
+tree clear
+clear
+man
+fzf
+fzf | code
+clear
+fzf | code
+ler
+clear
+code $(fzf)
+xargs
+clear
+bash
+clear
+cmake
+cat
+cal
+time
+date
+date now
+date now | select day
+date now | date to-table
+date now | date to-table | select month
+date now | date to-table | select month | each {|it| ^echo $it}
+date now | date to-table | select month | each {|it| ^echo string($it)}
+date now | date to-table | select month
+clear
+sys | get host.hostname
+sys | get host
+sys | get host.session.name
+sys | get host.sessions.name
+sys | get host.sessions.name | each {|it| ^echo $it }
+sys | get host
+net
+net user
+net user Cheth
+clear
+fzf | each { |it| ^echo $it }
+fzf | each { |it| ^code $it }
+clear
+fzf | code -
+er
+clear
+fzf | each { |it| where $it != none ^code $it }
+fzf | each { |it| ^code $it  | where $it != null}
+clear
+fzf | each { |it| ^code $it  | where !is-empty}
+clear
+fzf | each { |it| ^echo $it  | where !is-empty}
+fzf | each { |it| ^echo $it}
+fzf |{|it| ^echo $it}
+clear
+fzf | do {|it| ^echo $it}
+fzf | do code
+clear
+exit
+hello
+clear
+path
+clear
+cd Workspace\
+ls
+rm -v customfont.reg myfont.reg
+clear
+mkdir NuShell
+cd NuShell\
+ls
+"def abc[] {1+2}" | save demo.nu
+source "demo.nu"
+"def abc [] {1+2}" | save demo.nu
+"def abc [] {1+2}" | save demo.nu -f
+source "demo.nu"
+abc
+"def abc [] {echo \"hi\"}" | save demo.nu -f
+source "demo.nu"
+abc
+clear
+code demo.nu
+def say_hi () {echo "hi"}
+say_hi
+clear
+def say_hello()
+def say_hello ()
+def say_hello () \
+def say_hello () 
+clear
+cd Workspace\NuShell\
+source "demo.nu"
+abc
+clear
+source "demo.nu"
+abc
+abc Chethan
+source "demo.nu"
+abc Chethan
+source "demo.nu"
+abc Chethan
+clear
+cd Workspace\NuShell\
+ls
+source "demo.nu"
+echo "chethan" | abc
+abc (echo "chethan")
+code (fzf)
+source "demo.nu"
+abc (echo "chethan")
+echo "chethan" | abc
+clear
+let a = 10
+let b = 20
+a + c
+a + b
+clear
+a
+$a + $b
+clear
+$a
+$a = 20
+let mut c = 30
+$c = 100
+c = 100
+$mut c = 100
+clear
+$c
+let mut c = 30
+ls | enumerate | each {|it| ^echo $it }
+ls | enumerate | each {|it| ^echo $it.name }
+ls | enumerate | each {|it| ^echo $it.size }
+ls
+ls | enumerate
+ls | enumerate | each {|it| ^echo $it.0.size }
+ls | enumerate | get name
+ls | enumerate | get 0.name
+ls | enumerate | get item
+ls | enumerate | get item.name
+ls | enumerate | each {|it| ^echo $it.item.name}
+ls ../.. | enumerate | each {|it| ^echo $it.item.name}
+ls ../.. | enumerate | each {|it| ^echo $it.item.name} | where !is-empty
+ls ../.. | enumerate | each {|it| ^echo $it.item.name | where !is-empty} 
+ls ../.. | enumerate | each {|it| ^echo $it.item.name } 
+ls ../.. | enumerate | each {|it| if (!is-empty)  {^echo $it.item.name } }
+ls ../.. | enumerate | each {|it| if (not is-empty)  {^echo $it.item.name } }
+clear
+ls ../.. | enumerate | each {|it| ^echo $it.item.name}
+ls ../.. | each {|it| ^echo $it.name}
+clear
+cd
+ls | enumerate | each { |it| $"Number ($it.index) is size ($it.item.size)" }
+[one, two, three, four, five, six] | reduce {|curr, max|<\n>    if ($curr | str length) > ($max | str length) {<\n>        $curr<\n>    } else {<\n>        $max<\n>    }<\n>}
+help reduce
+winget install Spicetify.Spicetify
+spicetify-cli
+spicetify
+cleer
+clear
+iwr
+curl
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1
+winget install Spicetify.Spicetify
+winget install Spicetify.Spicetify-
+winget install Spicetify
+winget install Spicetify-marketplace
+$appdata
+%appdata
+cd %appdata%
+cd AppData\Local\
+ls
+mkdir spicetify
+cd spicetify\
+mkdir CustomApps
+cd CustomApps\
+mv ~\Downloads\spicetify-marketplace ./marketplace
+ls
+tree /f
+spicetify config inject_css 1
+spicetify config replace_colors 1
+spicetify config current_theme marketplace
+spicetify config custom_apps marketplace
+spicetify apply
+spicetify backup apply
+ls
+spicetify apply
+spicetify config custom_apps marketplace
+spicetify apply
+cd AppData\Local\
+ls
+mv spicetify ~\AppData\Roaming\
+mv spicetify ~\AppData\Roaming
+cd ..\Roaming\
+ls
+mv ~\AppData\Local\spicetify .\
+mv ~\AppData\Local\spicetify .\spicetify
+ls
+spicetify config custom_apps marketplace
+spicetify apply
+cd AppData\Roaming\
+ls
+spicetify config inject_css 1
+spicetify config replace_colors 1
+spicetify config current_theme marketplace
+spicetify config custom_apps marketplace
+spicetify apply
+spicetify config replace_colors 0 current_theme Frostify
+spectify backup apply
+spicetify backup apply
+spicetify auto
+ls
+spicetify
+spicetify config replace_colors 0 current_theme Frostify
+spicetify apply
+git clone https://github.com/catppuccin/spicetify.git
+ls
+rm spicetify
+rm -rf spicetify
+ls
+git clone https://github.com/catppuccin/spicetify.git
+cd spicetify\
+ls
+mv .\catppuccin\ ~\AppData\Roaming\spicetify\Themes\catppuccin
+clear
+cd ..
+spicetify config current_theme catppuccin
+spicetify config color_scheme frappe
+spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
+spicetify apply
+clear
+spicetify auto
+spicetify auto --transparent-window-controls
+clear
+[1 2 3 4] | to yaml
+[1 2 3 4] | into string
+[1 2 3 4] | into list
+['1 cheth' '2 deep'] | parse '{num} {name}'
+clear
+help str
+help int
+help char
+['1 cheth' '2 deep'] | parse '{num} {name}'
+$"(ansi blue) Hi"
+echo "hello"
+$"(ansi blue) Hi"
+$"hhello"
+clear
+[monday tuesdoy wednesday thursday friday saturday sunday]
+[monday tuesdoy wednesday thursday friday saturday sunday] | enumerate 
+[monday tuesdoy wednesday thursday friday saturday sunday] | enumerate | each {|it| ^echo $"($it.item) is the ($it.index) day"}
+[monday tuesdoy wednesday thursday friday saturday sunday] | enumerate | each {|it| ^echo $"($it.item) is the ($it.index + 1) day"}
+[monday tuesday wednesday thursday friday saturday sunday] | enumerate | each {|it| ^echo $"($it.item) is the ($it.index + 1) day"}
+clear
+[1 2 3 4 5  6 7 8 9 0]
+[1 2 3 4 5  6 7 8 9 0] | reduce { |it, sum| $sum + $it}
+[1 2 3 4 5  6 7 8 9 0] | reduce { |it, sum| $sum * $it}
+[1 2 3 4 5  6 7 8 9] | reduce { |it, sum| $sum * $it}
+1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9
+10/3
+10 / 3
+def fact [num: int] {if(num <= 1) { 1 } else {}}
+def fact [num: int] {if(num <= 1) { 1 } else { return num * fact (num - 1)}}
+fact
+fact 5
+def fact [num: int] {if($num <= 1) { 1 } else { return $num * fact ($num - 1)}}
+fact 5
+def fact [num: int] {if($num < 1) { 1 } else { return $num * fact ($num - 1)}}
+fact 5
+10 < 3
+let a = 10
+def fact [num: int] {if ($num < 1) { 1 } else { return ($num * fact ($num - 1))}}
+$a - 1
+def fact [num: int] {if ($num < 1) { 1 } else { return $num * fact ($num - 1) )} }
+def fact [num: int] {if ($num < 1) { 1 } else { return ($num * fact ($num - 1))} }
+def fact [num: int] {if ($num < 1) { 1 } else { return ($num * fact ( $num - 1 ))} }
+def fact [num: int] {if ($num < 1) { 1 } else {}}
+fact 1
+fact 7
+def fact [num: int] {if ($num < 1) { return 1 } else {}}
+fact 7
+find
+find demo
+ls
+help find
+ls | find --reger "[0-9]"
+ls | find --regex "[0-9]"
+ls | find --regex "[0-9]" -column name
+ls | find --regex "[0-9]" --column name
+ls | find --regex "[0-9]" --columns name
+ls | find --regex "[0-9]" --columns [name]
+ls | find --regex spicetify
+ls | where name == "sqicetify"
+ls | where name == "spicetify"
+ls | each {|it| ^echo $"($it.name) is of size ($it.size)"}
+echo hello
+ls | each {|it| ^echo ($it.name) is of size ($it.size)}
+ls | each {|it| ^echo ($it.name) is of size ($it.size | into string)}
+start demo.cxx
+touch demo.cxx
+start demo.cxx
+rm demo.cxx
+clear
+ls
+ls | sort-by modified | reverse 
+rm -rf spicetify
+clear
+spicetify auto --transparent-window-controls
+clear
+glob **/.{js, ts}
+glob **/*.{js, ts}
+clear
+glob **/*.{c,cpp,cc}
+clear
+glob **/*.{rs}
+rustup update
+def say_hello [name , --age(-a): int] { echo $"Hello , ($name)" }
+say_hello "Chethan"
+say_hello "Chethan" 10
+say_hello "Chethan" --age 10
+def say_hello [name , --age(-a): int] { echo $"Hello , ($name)" ; if ($age != null) { echo $"You are ($age) years old" } }
+say_hello "Chethan"
+say_hello "Chethan" --age 10
+clear
+def sum [...vars: int] { let sum: mut int = 0; for $var in $vars { $sum = $sum + $var } }
+def sum [...vars: int] { let sum:int = 0; for $var in $vars { $sum = $sum + $var } }
+def sum [...vars: int] { let sum: int = 0; for $var in $vars { let $sum = $sum + $var } }
+sum 1 2 3 4 5 6 7 8 9 
+def sum [...vars: int] { let sum: int = 0; for $var in $vars { let $sum = $sum + $var } ; print $"The sum is ($sum) "}
+sum 1 2 3 4 5 6 7 8 9 
+def sum [...vars: int] { mut sum: int = 0; for $var in $vars { $sum = $sum + $var } ; print $"The sum is ($sum) "}
+sum 1 2 3 4 5 6 7 8 9 
+clear
+def sum [...vars: int] { mut sum: int = 0; for $var in $vars { $sum = $sum + $var } ; print $"The sum is ($sum) "}
+sum 1 2 3 4 5 6 7 8 9 
+clear
+code (fzf)
+clear
+$env
+$env.AppData
+$env.APPDATA
+$env.USER
+$env.USERNMAE
+$env.USERNAME
+clear
+vim
+nano
+ed
+clear
+32 | describe 
+clear
+32 | describe 
+cd Workspace\NuShell\
+code mod.nu
+use mod.nu
+hi
+demo hi
+demo.nu hi
+clear
+use mod.nu hi
+use demo
+use mod.nu demo
+spicetify auto --transparent-window-controls
+clear
+starship
+starship config
+code (starship config)
+tmux
+clear
+winget install tmux
+clear
+1 | describe 
+clear
+1..4
+for $v in 1..4 {print $"($v)\n"}
+for $v in 1..4 {print $"($v)"}
+clear
+let tab = [[name, id]; [chethan, 13], [deepak, 16]]
+$tab
+clear
+0b10010
+0x98AC
+clear
+while true {print $tab}
+clear
+mut i = 0
+while ($i < 3) { print $tab; $i = $i + 1;}
+clear
+spicetify update
+spicetify upgrade
+spicetify  restore backup apply
+clear
+tree /f
+clear
+help curl
+man curl
+curl -h
+clear
+curl -L https://google.com
+curl -L https://google.com | save google.html
+clear
+code google.html
+clear
+curl -L https://google.com | save google.html
+curl -L https://google.com | save google.html -f
+clear
+ls
+clear
+curl -L https://github.com/u1dm/dotfiles/blob/646a966934fe7d630142fc485386a494b631a4a0/Mocha/wallpaper.png | save mocha.png
+start mocha.png
+curl -L https://raw.githubusercontent.com/u1dm/dotfiles/main/Mocha/wallpaper.png
+curl -L -O https://github.com/u1dm/dotfiles/raw/main/Mocha/wallpaper.png
+clear
+curl -L https://github.com/u1dm/dotfiles/blob/main/Mocha/wallpaper.png?raw=true
+clear
+winget install neovim.neovim
+nvim
+gcc
+cd C:\MinGW\bin\
+ls
+gcc
+gcc -help
+gcc -v
+GCC
+gcc
+c
+cc
+gcc
+cd C:\MinGW\bin\
+gcc
+clear
+ls
+cd /
+clear
+wsl
+wsl --offline
+wsl --list
+winget install wsl
+clear
+wsl --help
+wsl --install
+wsl --install ubuntu-22.04
+ls
+rm google.html
+clear
+ls
+rm rmchoco.ps1 mocha.png
+clear
+git clone https://github.com/Chethan-L701/nvim-arch.git
+mv nvim-arch C:\Users\Cheth\AppData\Local\nvim
+clear
+nvim
+clear
+nvim
+rm -rfv ~\AppData\Local\nvim-data
+clear
+wsl --install -d ubuntu-22.04
+wsl --update
+wsl
+ubuntu2204.exe
+gcc
+ls
+clear
+gcc
+exit
+wsl
+du
+wsl
+wsl --uninstall -d ubuntu-22.04
+wsl -h
+wsl --help
+ls
+rm -rfv ~\fish-shell
+rustup update
+clear
+nvim
+winget install zig.zig
+zig
+clear
+winget uninstall zig.zig
+clear
+winget install cmake
+winget install make
+clear
+zig
+clang -v
+clear
+nvim
+cd ~\AppData\Local\nvim\
+ls
+clear
+nvim
+clear
+npm i -g typescript-language-server
+tsserver
+clear
+git status
+clear
+nvim
+cd ~
+cd Workspace\VSCode\Intership\Session1\
+ls
+nvim
+sed
+winget in sed
+winget install sed
+winget install mbuilov.sed
+sed
+clear
+nvim
+clear
+cd ..
+ls
+cd ..
+ls
+cd web\
+ls
+cd Demo\
+ls
+clear
+tsc
+node out\index.js
+clear
+nvim
+clear
+cd 
+nvim .bash_history
+clear
+clangd
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+cd 
+cd `Workspace\Visual Studio\LeetCode\`
+ls
+nvim
+clear
+nvim ntuser.ini
+clear
+cd Workspace\NuShell\
+ls
+nvim demo.nu
+clear
+code .
+spicetify auto --transparent-window-controls
+cd Workspace\VSCode\Intership\Session1\
+clear
+CLEAR
+clear
+ls
+clear
+npx http-server --cors
+clear
+cd AppData\Roaming\
+ls
+cd spicetify\
+cd Themes\catppuccin\
+ls
+nvim
+spicetify auto --transparent-window-controls
+nvim
+spicetify auto --transparent-window-controls
+clear
+cd
+clear
+spicetify auto --transparent-window-controls
+spicetify config current_theme catppuccin
+spicetify backup apply
+spicetify apply
+spicetify auto --transparent-window-controls
+spicetify config color_scheme mocha
+spicetify apply
+spicetify auto --transparent-window-controls
+cd AppData\Roaming\spicetify\Themes\catppuccin\
+code .
+spicetify config color_scheme mocha
+spicetify apply
+spicetify auto --transparent-window-controls
+spicetify config color_scheme mocha
+spicetify apply
+spicetify auto --transparent-window-controls
+spicetify config custom_apps stats
+spicetify apply
+spicetify config custom_apps ncs-visualizer
+spicetify apply
+clear
+spicetify config-dir
+spicetify apply
+spicetify config custom_apps ncs-visualizer
+spicetify apply
+clear
+hi
+clear
+cargo run
+clear
+cd Workspace\VSCode\Rust\hello_world\
+nvim
+git status
+cd Workspace\VSCode\Rust\hello_world\
+nvim
+cd ~\AppData\Local\nvim\
+nvim
+cd ~\Workspace\VSCode\Rust\hello_world\
+clear
+cargo run
+cargo run 
+clear
+nvim
+clear
+git add .
+clear
+ls
+clear
+cd
+exit
+cd ~\Workspace\VSCode\Rust\hello_world\
+cd ..
+clear
+cargo new structs
+cd structs\
+clear
+cargo run
+cleaaaaar
+clear
+cargo run
+r
+clear
+nvim 
+clear
+starship config
+clear
+cd AppData\Local\
+ls
+cd ..\Roaming\
+ls
+cd
+ls
+clear
+ls
+clear
+cd Workspace\VSCode\Rust\structs\
+ls
+clear
+spicetify upgrade
+spicetify apply
+winget install wez.wezterm
+celar
+clear
+winget uninstall sed
+sed
+cd Workspace\VSCode\Rust\structs\
+nvim
+cd `C:\Program Files (x86)\GnuWin32\`
+ls
+cd bin
+.\sed.exe
+clear
+cd
+sed
+clear
+sed
+$env.SED
+sed
+clear
+cd Workspace\VSCode\Rust\structs\
+nvim
+cd ~\AppData\Local\nvim\
+nvim
+clear
+make
+clear
+sed
+clear
+make
+clear
+ninja
+winget install ninja-build
+powershell.exe 
+scoop
+.
+scoop
+scoop install ninja
+ninja
+clear
+scoop install make
+make
+make -h
+make -v
+clear
+scoop install sed
+sed -v
+sed --version
+clear
+cd ~\AppData\Local\nvim\
+nvin -S session.nvim
+nvim -S session.nvim
+clear
+cd
+clear
+touch .wezterm.lua
+ls
+nvim
+nvim .wezterm.lua
+clear
+ls
+cd scoop\
+ls
+cd apps\
+ls
+clear
+cmake
+clear
+cmake -v
+cmake --version
+scoop install cmake
+clear
+winget list
+winget upgrade Discord
+clear
+discord
+spotify
+clear
+cd Workspace\
+ls
+mkdir C++
+cd C++\
+mkdir spaceship_operator
+cd spaceship_operator\
+mkdir build src
+touch CMakeLists.txt
+clear
+nvim
+clear
+python
+clear
+py
+clear
+py --version
+which
+which py
+mklink C:\Windows\py.exe C:\Windows\python.exe
+mklink C:\Windows\python.exe C:\Windows\py.exe
+clear
+python
+clear
+cd Workspace\C++\spaceship_operator\
+nvim
+py -m venv
+py -m venv .
+ls
+rm -rfv .\*
+clear
+mkdir build src
+touch CMakeLists.txt
+clear
+cd build\
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+tree /f
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+clear
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Release
+clang-format -style=llvm -dump-config > .clang-format
+clear
+clang-format -style=llvm -dump-config > .clang-format
+clang-format -style=llvm -dump-config | save .clang-format
+clear
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Release
+ninja
+.\spaceship.exe
+clear
+mv .clang-format ..\
+ls
+nvim
+cd ~\AppData\Local\nvim\
+nvim -S session.nvim
+clear
+cd Workspace\C++\spaceship_operator\
+nvim -S session.nvim
+clear
+cd ~\Workspace\C++\spaceship_operator\
+nvim -S session.nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+scoop install ripgrep
+clear
+nvim
+nvim -S session.nvim
+clear
+nvim
+clear
+cd ~\Workspace\C++\spaceship_operator\
+clear
+cd build\
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Release
+ninja
+.\spaceship.exe
+nvim -S session.nvim
+clear
+winget uninstall fz
+winget uninstall fzf
+scoop install fzf
+clear
+cd
+nvim (fzf)
+clear
+fzf
+nvim (fzf)
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+git status
+rm -rfv .\.git\*
+rm -rfv .\.git
+git init
+gh
+git remote add origin git@github.com:Chethan-L701/nvim.git
+git config --global --add safe.directory C:/Users/Cheth/AppData/Local/nvim
+git remote add origin git@github.com:Chethan-L701/nvim.git
+git branch -m main
+clear
+git branch
+git branch -l
+git status
+git add .
+git status
+git commit -m "nvim config directory"
+git push
+git push origin main
+clea
+clear
+nvim
+git status
+nvim
+cd ..
+rm -rfv .\nvim-data\*
+nvim
+cd nvim
+git status
+clear
+gopls
+go install gopls
+go install gopls@latest
+nvim
+clear
+nvim --veersion
+nvim --version
+clear
+scoop install nvim
+scoop install neovim
+winget uninstall neovim.neovim
+scoop install neovim
+nvim --version
+clear
+nvim
+open init.lua
+open init.lua | length
+cat init.lua | length
+open init.lua | length
+clear
+scoop install grep
+clear
+scoop install grep
+grep
+clear
+scoop clean
+scoop help
+scoop cleanup
+clear
+scoop install cat
+clear
+cd Workspace\
+mkdir billion
+cd billion\
+touch billion.py billion.cpp billion.c billion.js
+clear
+touch billion.rs
+clear
+ls
+nvim
+rm billion.rs
+clear
+cleara
+clear
+rm billion.c
+clear
+node billion.js
+clear
+node billion.js
+clear
+c++
+clang++ -o bilion billion.cpp
+.\bilion
+clang++ -o bilion billion.cpp -O0
+.\bilion
+clang++ -o bilion billion.cpp -O2
+.\bilion
+clang++ -o bilion billion.cpp -O2
+.\bilion
+clear
+clang++ -o bilion billion.cpp -O2
+.\bilion
+clear
+objdump
+scoop install objdump
+clear
+nvim
+code (fzf)
+nvim
+open billion.cpp | clip.exe
+clear
+clang++ -o bilion billion.cpp
+.\bilion
+node billion.js
+clear
+clang++ -o bilion billion.cpp
+.\bilion
+clear
+node billion.js
+r
+clear
+node billion.js
+clear
+clang++ -o bilion billion.cpp
+.\bilion
+clang++ -o bilion billion.cpp -O3
+.\bilion
+clang++ -o bilion billion.cpp -O2
+clear
+clang++ -o bilion billion.cpp -O2
+.\bilion
+clear
+clang++ -o bilion billion.cpp -O2
+.\bilion
+node billion.js
+clear
+open billion.cpp | clip.exe
+clang++ -o bilion billion.cpp
+.\bilion
+1000000000 * 1000000000
+( 1000000000 * 1000000000 ) / 2
+( 1000000000 * 1000000001 ) / 2
+clang++ -o bilion billion.cpp
+.\bilion
+node billion.js
+clear
+npx http-server --cors
+clear
+nvim
+code (fzf)
+clear
+cd Workspace\billion\
+py billion.py
+clear
+py billion.py
+clear
+.\bilion
+node billion.js
+clear
+clang++ -o bilion billion.cpp
+.\bilion
+clear
+clang++ -o bilion billion.cpp
+.\bilion
+node billion.js
+clear
+nvim -S session.nvim
+clear
+=~ | help
+2 == 2
+2 =~ 2
+2 != 2
+clear
+cd Workspace\
+mkdir Rust
+cd Rust
+cargo new pattern_matching_enum
+cd pattern_matching_enum\
+clear
+rustup
+rustup upgrade
+clear
+cargo run
+clear
+git branch -m main
+clear
+nvim
+clear
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+nvim -S session.nvim
+nvim
+clear
+git status
+clear
+git add .
+git commit -m "changes in nerd icons"
+clear
+git log
+clear
+lazygit
+grep
+clear
+scoop install  grep
+curl -L https://raw.githubusercontent.com/mbuilov/grep-windows/3.11/grep-3.11-x64.exe | save grep.exe
+curl -L https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe
+git config --global --unset https.proxy
+git config --global --unset http.proxy
+curl -L https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.exe
+curl -L https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.excleare
+clear
+git clone --depth=1 https://github.com/mbuilov/grep-windows.git
+ls
+mv grep-windows ~\
+rm grep.excleare grep.exe
+clear
+cd
+cd grep-windows\
+ls
+.\grep-3.11-x64.exe
+ls | .\grep-3.11-x64.exe -G "arch"
+clear
+mv grep-3.11-x64.exe ~\
+cd 
+rm -rfv grep-windows
+clear
+cd scoop\
+ls
+cd apps\
+ls
+tree /f
+cleae
+clear
+mkdir misc
+mv grep-3.11-x64.exe .\misc\
+cd
+mv grep-3.11-x64.exe .\misc\
+clear
+ls
+misc
+misc.\misc
+.\misc
+mv misc grep-3.11-x64.exe
+.\grep-3.11-x64.exe
+mv grep-3.11-x64.exe grep.exe
+mkdir misc
+mv grep.exe ~\misc\
+cd misc\
+ls
+clear
+cd
+grep
+grep.exe
+clear
+$env.PATH
+$env.Path
+clear
+$env.Path
+grep
+grep -h
+grep --help
+clear
+wc
+scoop install  wc
+scoop install wc
+clear
+scoop install objdump
+cd scoop\
+ls
+cd shims\
+ls
+.\scoop
+clear
+$env.Path
+cd
+sccop
+scoop
+clear
+grep
+clear
+scoop install wc
+scoop install wget
+wget
+wget https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.excleare
+clear
+git config --global --unset http.proxy 127.0.0.1:3030
+wget https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.excleare
+clear
+ls
+rm grep.excleare
+wget https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.excleare
+clear
+git config --global --set http.proxy 127.0.0.1:3030
+git config --global http.proxy 127.0.0.1:8087
+wget https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.excleare
+rm grep.excleare
+wget https://raw.githubusercontent.com/mbuilov/grep-windows/master/grep-3.11-x64.exe | save grep.exc
+clea
+clear
+git config --global --unset http.proxy
+git config --global http.proxy
+git config --global http.proxy 127.0.0.1:8087
+git config --global http.proxy
+git config --global --unset http.proxy
+clear
+cleear
+clear
+ls | grep "A"
+ls | grep "A" | length
+ls | grep "A" | awk
+scoop install awk
+clear
+perf
+awk
+clear
+zip
+unzip
+scoop install gawk
+zip
+unzip
+scoop install unzip
+stat
+scoop install stat
+scoop install Stat
+scoop install coreutils
+pwd
+which pwd
+tee
+ls | grep "A" | wc -l
+ls | grep "A" 
+ls | grep "A" | wc -l
+clear
+stat misc\grep.exe
+stat
+whoami
+whoamiyes
+yes
+stat
+stat
+clear
+touch
+clear
+wc
+which wc
+clear
+which sed
+clear
+gdb
+scoop install gdb
+clear
+which sed
+sed --version
+clear
+cd misc\
+ls
+git clone git://git.sv.gnu.org/sed
+cd sed
+ls
+make
+make .
+make
+sed --version
+clead
+clear
+make
+ls
+clear
+.\bootstrap
+make
+nvim
+clear
+scoop install tree
+scoop search gnu
+scoop install regex
+tar
+clear
+cd `C:\Program Files (x86)\`
+ls
+cd GnuWin32\
+ls
+cd bin\
+ls
+clear
+cd
+which tar
+clear
+cd ~\AppData\Local\nvim\
+clear
+nvim
+py -m pip install ranger-fm
+ranger
+ls
+git status
+cd
+clear
+fzf
+cd AppData\Local\Programs\Python\Python312\Lib\site-packages\
+ls
+cd ranger\
+ls
+py .
+ranger
+cd core\
+ls
+py .
+clear
+cd ..
+ls
+cd ranger\ls
+cd ranger\
+ls
+tree /f
+scoop install ranger-cli
+scoop install extras/ranger-cli
+cd 
+misc
+cd misc
+git clone https://github.com/ranger/ranger.git
+less
+cd ranger\
+ls
+make
+make .
+python setup.py install --optimize=1 --record=install_log.txt
+py -m pip install setuptools
+python setup.py install --optimize=1 --record=install_log.txt
+cd AppData\Local\Programs\Python\Python312\Lib\site-packages\
+cd ~\AppData\Local\Programs\Python\Python312\Lib\site-packages\
+ls
+cd ranger_fm-1.9.3-py3.12.egg\
+ls
+cd ranger\
+ls
+cd ..
+rm -rfv ranger-*
+ls
+rm -rfv ranger_*
+rm -rfv ranger
+ls
+clear
+cd
+cd misc\
+ls
+rm -rfv ranger
+cd sed
+cd ..
+rm -rfv sed
+clear
+cd sed
+ls
+rm -rfv 8
+rm -rfv *
+cd ..
+ls
+rm sed
+rm -rf sed
+clear
+ps | where name = sed
+ls
+ps
+ps | where name == sed
+cd Workspace\
+ls
+cd Rust\
+cd ..
+cd billion\
+nvim
+rm billion.rs
+cargo run billion_rust
+cargo new billion_rust
+nvim
+cd billion_rust\
+clear
+cargo run
+cargo run RUST_BACKTRACE=1
+.\target\debug\billion_rust.exe RUST_BACKTRACE=1
+.\target\debug\billion_rust.exe --RUST_BACKTRACE=1
+.\target\debug\billion_rust.exe RUST_BACKTRACE=1
+clear
+cargo run
+clear
+cargo run
+clear
+iiclear
+clear
+cargo run
+clear
+cargo run
+clear
+cd ..
+clang++ -o billion.exe billion.cpp
+.\billion.exe
+node billion.js
+cd billion_rust\
+cargo run
+clear
+cd ..
+.\billion.exe
+node billion.js
+.\billion.exe
+clear
+cd billion_rust\
+cargo build --Release
+cargo build --release
+ls
+.\target\release\
+ls
+billion_rust.exe
+.\billion_rust.exe
+clear
+cd ..
+clear
+clang++ -o billion.exe billion.cpp -Ofast
+cd ..
+clang++ -o billion.exe billion.cpp -Ofast
+.\billion_rust.exe
+.\billion.exe
+clea
+clear
+py billion.py
+clear
+nvim
+clear
+cd ..
+nvim billion.py
+npm i -g pyright
+clear
+pyright
+clear
+pyright billion.py
+clear
+cd ~\AppData\Local\nvim\
+nvim
+cd 
+cd Workspace\billion\
+nvim billion.py
+clear
+nvim billion.py
+clea
+clear
+ls
+clear
+regex
+which grep
+clear
+def sum [...vars: int] { mut sum: int = 0; for $var in $vars { $sum = $sum + $var } ; print $"The sum is ($sum) "}
+sum 1 2 3 4 5 6 7 8 9 
+clear
+let env.Hello = hi
+let Hello = hi
+clear
+cd AppData\Local\nvim\
+clear
+nvim
+clear
+rm session.nvim
+nvim
+clear
+nvim
+clear
+git status
+git add .
+git status
+git commit -m "added oil.nvim and changed some keymaps"
+git push origin main
+lua
+clear
+cd
+clear
+nvim
+clear
+nvim
+cd AppData\Local\nvim-data\
+ls
+rm -rfv tree-sitter-norg
+ls
+nvim
+clear
+nvim
+cd AppData\Local\nvim\
+cd ~\AppData\Local\nvim\
+clear
+git status
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+git status
+clear
+nvim
+clear
+nvim
+clear
+exit
+cd ~\AppData\Local\nvim\
+nvim
+clear
+nvim
+clear
+nvim
+cd ~\Workspace\Rust\
+ls
+cd pattern_matching_enum\
+nvim
+clear
+cd
+ls
+nvim
+clear
+cd ~\AppData\Local\nvim\
+nvim
+clear
+nvim
+ls
+git status
+git log
+git add .
+git commit -m "added colorschemes: onedark, tokyonight and kanagawa."
+git push origin main
+clear
+scoop install ffmpeg
+cd
+ffprobe
+clear
+pwd
+which pwd
+ls
+mkdir Pictures
+cd Pic
+cp .\OneDrive\Pictures\* .\Pictures\
+cp -rf .\OneDrive\Pictures\* .\Pictures\
+cd Pictures\
+ls
+ffprobe.exe  neon.png
+ffprobe neon.png
+clear
+cd Videos\
+ffplay `2023-11-11 18-55-03.mkv`
+clear
+ffplay -help
+ffplay -help | save ffplay-help.txt
+nvim ffplay-help.txt
+ffmpeg -help | save ffmpeg-help.txt
+nvim ffmpeg-help.txt
+clear
+ffplay `2023-11-11 18-55-03.mkv` 800x400
+ffplay -i `2023-11-11 18-55-03.mkv` screenrec.mp4
+ffplay -i '2023-11-11 18-55-03.mkv' screenrec.mp4
+cd Videos\
+ffplay 2023-11-11_19-17-46.mkv
+clear
+ox67577af
+ox6757
+0x6757afff
+0x6757afff |into binary
+clear
+30day
+30day | into sec
+30day
+30day | into days
+30day | into day
+clear
+echo $env.Path
+which sed
+~\scoop\shims\
+ls
+.\sed.exe
+.\sed.exe -v
+.\sed.exe --version
+clear
+scoop install fileutils
+scoop upgrade
+scoop update
+clear
+cd
+make --version
+scoop install make
+ls
+cd scoop\shims\
+ls
+cd C:
+cd
+cd \
+ls
+cd `Program Files (x86)\GnuWin32\`
+ls
+cd bin\
+ls
+rm sed.exe make.exe
+sudo rm sed.exe make.exe
+cd
+cd `Program Files (x86)\GnuWin32\`
+cd \
+cd `Program Files (x86)\GnuWin32\`
+rm sed.exe make.exe
+cd bin\
+rm sed.exe make.exe
+clear
+sed
+which sed
+make --version
+clear
+which stat
+clear
+which stat
+cd scoop\shims\
+ls
+which wget
+which wc
+which awk
+clear
+awk -v
+awk -V
+clear
+scoop install tar
+which tar
+tar -v
+tar -V
+tar --version
+clear
+cmake --version
+scoop install cmake
+clear
+scoop install main/sort-uniq-wc
+ls
+scoop install main/msys
+cat
+clear
+bash
+msys
+scoop install main/binutils
+objdump
+clear
+scoop install main/diffutils
+diff
+clear
+scoop install fileutils
+scoop install findutils
+find
+which find
+help find
+find.exe
+find.exe --help
+find.exe -h
+find.exe 
+find.exe --version
+find.exe . 
+find.exe
+find.exe . 'hi'
+find.exe -t file 
+which find.exe
+clear
+ls
+openssl
+scoop install opensll
+scoop install openssl
+which curl
+scoop install bsdtar
+scoop install tar
+scoop update all
+scoop update --all
+scoop status
+scoop uninstall cmake
+scoop uninstall gdb
+scoop uninstall gdbgrep
+scoop uninstall grep
+scoop uninstall misc
+clear
+scoop status
+cmake --version
+clear
+which tar
+which find
+which find.exe
+clear
+fint.exe .
+find.exe . 
+find.exe . --max-depth=1
+find.exe . --depth=1
+find.exe -h
+find.exe --help
+find.exe --version
+find.exe -depth 1 .
+find.exe . -depth 1 
+find.exe . -maxdepth=1
+find.exe . -maxdepth 1
+clear
+find.exe . -maxdepth 1 "vim"
+find.exe . -type f -maxdepth 1 
+find.exe . -maxdepth 1 -type f
+find.exe . -maxdepth 1 -type f "vim"
+find.exe -maxdepth 1 -type f .
+clear
+cleaer
+clear
+stat
+which tar
+tar -cvf ~\AppData\Local\nvim
+tar -cv ~\AppData\Local\nvim
+tar -cvrf ~\AppData\Local\nvim
+tar --help
+tar -cvrf ~\AppData\Local\nvim nvim
+tar -cvrf ~\AppData\Local\nvim\* nvim
+tar -cvf ~\AppData\Local\nvim\* nvim
+ls
+nvim
+cd ~\AppData\Local\nvim\
+cd ~\AppData\Local\nvim-data
+ls
+rm tree-sitter-norg_meta tree-sitter-norg
+rm  -rf tree-sitter-norg_meta tree-sitter-norg
+ls
+nvim
+rm  -rf tree-sitter-norg
+clear
+rm  -rf tree-sitter-norg
+killall
+clear
+rm  -rf tree-sitter-norg
+nvim
+clear
+cd
+nvim
+clear
+cd
+clear
+gh login
+gh auth
+gh auth login
+clear
+gh delete repo newsletter
+gh repo
+gh repo delete newsletter
+gh auth refresh -h github.com -s delete_repo
+gh repo delete newsletter
+clear
+cd Workspace\
+ls
+mkdir Python
+cd Python\
+clear
+git clone git@github.com:Chethan-L701/Student-registry.git
+cd Student-registry\
+clear
+py pyClasses.py
+ls
+py pyClasses.py
+clear
+py pyClasses.py
+clear
+ls
+clear
+git status
+status
+let status = git status
+stutus
+status
+def status [] { git status  }
+status
+clear
+alias
+clear
+git add .
+git rm --cached session.vim
+clear
+touch .gitignore
+git add .gitignore
+git rm --cached .vscode
+git rm  -r --cached .vscode
+clear
+status
+git commit -m "cleanup after 2 years"
+git push origin main
+git push origin master
+py pyClasses.py
+clear
+nvim
+clear
+git branch main
+git checkout main
+clear
+ls
+git branch -m rewrite
+git branch
+nvim
+nvim ~\AppData\Local\nvim\after\plugin\nvim-lsp.lua
+clear
+nvim
+nvim ~\AppData\Local\nvim\lua\format.lua
+nvim
+clear
+py pyClasses.py
+r
+clear
+py pyClasses.py
+clear
+py pyClasses.py
+clear
+py pyClasses.py
+r
+clear
+py pyClasses.py
+clear
+py pyClasses.py
+clear
+py pyClasses.py
+clear
+py pyClasses.py
+r
+clear
+cd
+exit
+clear
+ls -a
+ls --all
+ls
+clear
+cd Workspace\Rust\pattern_matching_enum\
+nvim
+clear
+nvim
+cd ~\AppData\Local\nvim
+nvim
+clear
+cd 
+cd Workspace\Rust\pattern_matching_enum\
+nvim
+> cargo install cargo-mommy
+cargo install cargo-mommy
+clear
+cd Workspace\Rust\
+cargo new adder --libs
+cargo new adder --lib
+clear
+cd adder\
+ls
+cargo mommy CARGO_MOMMYS_MOODS= "yikes" test
+cargo mommy test CARGO_MOMMYS_MOODS= "yikes" 
+cargo test
+cargo mommy test CARGO_MOMMYS_MOODS= "yikes" 
+cargo mommy CARGO_MOMMYS_MOODS= "yikes" test
+clear
+cd
+nu --config
+nu config
+echo $env.config
+echo $env.config-dir
+code C:\Users\Cheth\AppData\Roaming\nushell\env.nu
+$env.CARGO_MOMMYS_MOODS
+clear
+cd Workspace\Rust\adder\
+mommy test
+clear
+mommy test
+clear
+random 
+[1 2 3 4 5  6 7 8 9] | random
+let a = [1 2 3 4 5  6 7 8 9]
+$a.1
+$a.10
+$a.2
+exec
+do
+random int 0..9
+$a.(random int 0..9)
+$a.( random int 0..9 )
+let r = (random int 0..9)
+$a.$r
+r
+$r
+let b = [1, 2, 3, 4, 5]
+$b[1]
+$b.0
+rand
+clear
+mommy test
+clear
+$a
+$a | get (random int 0..9)
+clear
+mommy
+mommy init hi
+rm  -rfv hi
+clear
+"hi " + "hello"
+clear
+$a | length 
+load-env { a : "hi" }
+$env.a
+load-env { a : "hello" }
+$env.a
+clear
+$env.a
+$a
+1..9
+random int 0..9
+$a.9
+random int 0..<9
+mommy
+cd Workspace\Rust\adder\
+mommy
+clear
+mommy
+clear
+cd Workspace\Rust\adder\
+cargo add rand
+cd Workspace\Rust\adder\
+clear
+mommy
+clear
+mommy
+clear
+mommy
+clear
+mommy
+clear
+nvim
+clear
+cd
+cd C++\
+cd Workspace\C++\
+ls
+cd LeetCode
+mkdir LeetCode
+cd LeetCode
+clear
+pip
+pip3
+clear
+cd ..
+clear
+cd ..
+cd Rust\
+ls
+mkdir LeetCode
+cd LeetCode
+clear
+cargo new P1_TwoSum
+cd P1_TwoSum\
+clear
+nvim
+cd ..
+rm  -rfv P1_TwoSum\
+clear
+cd ..
+rm  -rfv LeetCode\
+clear
+cargo new LeetCode
+rm  -rfv LeetCode\
+rm  -rfv LeetCode 
+cargo new LeetCode --lib
+clear
+nvim
+ls
+cd LeetCode
+nvim
+cd ..
+rm  -rfv LeetCode 
+clear
+cargo new leet_code
+nvim
+cd leet_code\
+clear
+cargo
+clear
+cd Workspace\Rust\leet_code\
+clear
+ls
+tree /f
+g
+clear
+tree /f
+cd ..
+clear
+rm  -rfv leet_code\
+nvim
+lclear
+clear
+rm  -rfv leet_code\
+cd Workspace\Rust\leet_code\
+cd ..
+rm  -rfv leet_code\
+clear
+cd Workspace\Rust\leet_code\
+cd ..
+rm  -rfv leet_code\
+rm  -rfv leet_code
+ps
+kill 199490
+ps
+19440
+clear
+cd Workspace\Rust\
+rm  -rfv leet_code
+cd leet_code\
+ls
+rm  -rfv *
+cd ..
+rm  -rfv leet_code
+rmdir
+rmdir leet_code
+sudo rmdir leet_code
+scoop install sudo
+wget https://raw.githubusercontent.com/lukesampson/psutils/c7116ac143ca81f223e6091d0974f45ac241eb1d/sudo.ps1
+cd ~\misc\
+git clone https://raw.githubusercontent.com/lukesampson/psutils.git
+scoop install psutils
+clear
+sudo
+scoop install psutils
+cd ~\Workspace\Rust\
+sudo rmdir leet_code
+clear
+tree /f leet_code
+rm  -rfv leet_code
+clear
+cd ~\Workspace\Rust\
+rm  -rfv leet_code
+clear
+cargo new leet_code
+cd leet_code\
+ls
+cd src
+cd ..
+cargo new
+cargo add
+clear
+mkdir p1_twosum
+touch p1_twosum\mod.rs
+touch p1_twosum\test.rs
+clear
+tree /f
+mv p1_twosum src\
+tree /f
+clear
+cargo add rand
+clear
+mommy
+clea
+clear
+cargo run
+cargo test
+clear
+cargo test
+clear
+exit
+clear
+mommy
+clear
+mommy
+clear
+mommy
+clear
+mommy
+clear
+cargo add math
+cargo remove math
+clear
+cd Workspace\Rust\
+ls
+mommy test p2_palindrome
+mommy test p2_palindrome::
+cargo test p2_palindrome::
+r
+clear
+mommy (test, p2_palindrome::)
+mommy ('test', 'p2_palindrome::')
+mommy ('test')
+clear
+mommy ('test')
+clear
+mommy [ 'test']
+mommy [ 'test' ]
+mommy('test') 
+mommy 'test'
+mommy 'test' --hi
+mommy 'test' -hi
+mommy
+cargo test p2_palindrome::
+clear
+nvim
+clear
+tree /f
+which tree
+scoop install tree
+clear
+cd ..
+clear
+sudo rm -rfv adder
+clear
+runas /user:Administrator /savecred rm -rfv adder
+runas /user:Administrator rm -rfv adder
+clear
+runas /user:Administrator "rm -rfv adder"
+clear
+cd
+clear
+cd Workspace\
+ls
+cd Python\
+ls
+clear
+py pyr.py
+clear
+r
+clear
+py pyr.py
+clear
+py pyr.py
+clear
+py pyr.py
+clear
+py pyr.py
+clea
+clear
+nvim pyr.py
+clear
+py - m pip upgrade
+py -m pip upgrade
+py -m pip update
+py -m pip install pip
+clear
+cd
+clear
+scoop install unxutils
+grep --help
+grep --version
+grep
+scoop uinstall uxutils
+scoop
+scoop uninstall uxutils
+scoop uninstall unxutils
+scoop install findutils
+grep --version
+wc 
+make --version
+scoop install diffutils
+scoop uninstall findutils
+scoop install findutils
+scoop uninstall diffutils
+scoop install diffutils
+scoop uninstall coreutils
+scoop install coreutils
+clear
+scoop install binutils
+fzf | xargs nvim
+clear
+msys
+clear
+cd
+cd Workspace\
+mkdir Javascript
+cd Javascript\
+touch session3.js
+clear
+node session3.js
+clear
+npm 
+clear
+node
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+node session3.js
+clear
+clesr
+clear
+fzf | xargs nvim
+clear
+nvim ffjq.js
+clear
+nvim (fzf)
+clear
+gdb
+scoop install gdb
+scoop update all
+scoop update
+scoop update *
+cd scoop\shims\
+ls
+scoop update *
+scoop
+scoop update
+clear
+cd Workspace\C++\
+ls
+cd spaceship_operator\
+ls
+cd build\
+ls
+rm -rfv *
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+ninja
+.\spaceship.exe
+gdb spaceship.exe
+clear
+cd ..
+clear
+cd build\
+gdb spaceship.exe
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+clear
+gdb spaceship.exe
+clear
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debugclear
+clear
+rm -rfv *
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+clear
+ninja
+gdb spaceship.exe
+clear
+rm -rfv *
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+make .
+ls
+clear
+rm -rfv *
+cmake -G Make .. -DCMAKE_BUILD_TYPE=Debug
+cd Workspace\C++\
+cd build\
+cd spaceship_operator\build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+rm -rfv *
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cl.exe
+clear
+rm ffjq.js
+cd Workspace\C++\spaceship_operator\build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+bscmake.exe
+bscmake.exe .
+clear
+make
+bscmake.exe .
+clear
+cl
+cd ..
+cl -o hi src\main.cpp
+cl src\main.cpp
+clear
+cd
+clear
+clang
+clear
+cd Workspace\C++\spaceship_operator\build\
+rm -rfv *
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+ninja
+ninja -g
+ninja -d
+ninja -d spaceship
+ninja -d DEBUG
+ninja -d list
+ninja -d stats
+gdb spaceship.exe
+clear
+cd ..
+nvim
+cd build\
+rm -rfv *
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
+ninja
+open compile_commands.json
+clear
+gdb spaceship.exe
+rm -rfv *
+clear
+cd ..
+rm build
+rm -rfv build
+clear
+which nu
+exit
+clear
+fontforge
+scoop install fontforge
+cd Workspace\font\
+cd `Cartograph CF\`
+ls
+ls | each { |it| ^echo $it.name }
+ls -l
+ls -l| each { |it| ^echo $it.name }
+clear
+mkdir patched
+mv ~\Downloads\FontPatcher.zip
+mv ~\Downloads\FontPatcher.zip .\
+unzip.exe  FontPatcher.zip
+ls
+fontforge -script font-patcher .\patched\
+fontforge
+./font-patcher CartographCF-Bold.ttf
+sh
+cd `Workspace\font\Cartograph CF\`
+ls
+py -m pip install python-fontforge
+clear
+cd `Workspace\font\Cartograph CF\`
+ls
+docker run --rm -v .\CartographCF-Bold.ttf:/in:Z -v .\patched\CartographCFNF-BOLD:/out:Z nerdfonts/patcher [OPTIONS]
+ls
+ls patched\
+docker run --rm -v .\CartographCF-Bold.ttf:/in:Z -v .\patched\CartographCFNF-BOLD:/out:Z nerdfonts/patcher
+ls
+ls patched\
+cd ..
+mv `Cartograph CF\` `CartographCF\`
+docker run --rm -v ./CartographCF:/in:Z -v ./patched/CartographCF:/out:Z nerdfonts/patcher
+docker run --rm -v CartographCF:/in:Z -v patched/CartographCF:/out:Z nerdfonts/patcher
+docker run --rm -v CartographCF:/in:Z -v patched:/out:Z nerdfonts/patcher
+ls
+docker run --rm -v ./CartographCF:/in:Z -v ./patched:/out:Z nerdfonts/patcher
+ls
+fzf
+docker run --rm -v ./CartographCF:/in:Z -v ./patched:/out:Z nerdfonts/patcher
+docker run --rm -v ~\Workspace\font\CartographCF:/in:Z -v ~\Workspace\font\patched:/out:Z nerdfonts/patcher
+tree /f
+nvim
+clear
+rm -rfv .cache\
+clear
+rm -rfv .cache\
+clear
+ts-node
+npm i -g ts-node
+ts-node
+clear
+cd AppData\Local\nvim\
+ls
+cat session.nvim
+cat session.nvim | length
+cat session.nvim | wc -l
+cat session.nvim session.vim | wc -l
+clear
+cat */*
+cat */* | wc -l
+clear
+cd Workspace\Javascript\
+ls
+clear
+node session4.js
+clear
+node session4.js
+cleara
+clear
+node session4.js
+clear
+ts-node session4.ts
+clear
+rm session4.js
+tsc session4.ts
+curl -L https://www.google.com | save google.html
+node 
+clear
+nvim session4.js
+clear
+which node
+clear
+ls
+rm google.html ffjq.js
+clear
+npm i -g electron electron-build
+electron
+electron --help
+cd Workspace\VSCode\Intership\Session1\
+clear
+ls
+electron .
+electron --help
+electron .\index.html
+clear
+ps
+ps | sort-by mem | reverse
+scoop install btop++
+scoop install btop
+scoop install 'extras/vcredist2022'
+scoop install extras/vcredist2022
+scoop add extras
+scoop help
+scoop import extras
+btop
+clea
+btop
+killall
+clear
+btop
+clear
+reg.exe 
+which reg
+clear
+scoop update fzf
+scoop update all
+scoop update
+scoop 
+scoop update *
+scoop update scoop
+scoop update
+scoop list
+scoop list | to table
+clear
+scoop list | awk -F' ' '{print $1}'
+scoop list | awk -F' ' '{print $0}'
+scoop list | awk -F' ' {print $0}
+scoop list | foreach { |it| ^echo $it }
+scoop list | each { |it| ^echo $it }
+scoop list 
+cut
+clear
+scoop list | cut -f3 -d" "
+scoop list | cut -f3 -d " "
+clear
+scoop list | cut -f3 -d " "
+scoop list | cut -f3 -d " "| xargs echo
+clear
+scoop list | each { |it| ^echo $it }
+scoop list
+clear
+nvim
+open temp.txt | xclip
+open temp.txt | clip
+scoop update 7zip binutils btop cacert coreutils diffutils ffmpeg findutils fzf gawk gdb gzip innounp make msys neovim ninja openssl psutils ripgrep sed sort-uniq-wc sudo tar unzip wget
+scoop install sudo
+scoop uninstall sudo
+clear
+scoop install psutils
+scoop update psutils
+scoop status
+clear
+cd Workspace\VSCode\Intership\Session1\
+ls
+electron-build .\index.html
+electron-build
+npm i -g electron-build
+clear
+electron-build .\index.html
+electron-build
+clear
+npx http-server --cors
+clear
+npm init
+clear
+npm i electron
+npm i electron --save-dev
+clear
+touch main.js
+clear
+npx run start
+npm run start
+iclear
+clear
+npm run start
+clear
+electron .\index.html
+npm run start
+clear
+electron .
+clear
+clear
+electron .
+electron .\index.html
+clear
+electron --help
+electron .
+clear
+electron .
+clear
+electron .
+clear
+electron .
+cleara
+clear
+npm create vite@latest my-vue-app -- --template react
+rm *
+rm -rf *
+npm create vite@latest session5-react -- --template react
+cd session5-react\
+clear
+npm install
+clear
+du
+clear
+npm start
+npm start dev
+clear
+node --version
+which node
+stat C:\Program Files\nodejs\node.exe
+stat
+info
+log
+C:\Program Files\nodejs\node.exe | info
+`C:\Program Files\nodejs\node.exe` | info
+clear
+stst
+stast
+stat
+clear
+stat C:\Program Files\nodejs\node.exe
+stat "C:\Program Files\nodejs\node.exe"
+stat `C:\Program Files\nodejs\node.exe`
+clear
+stat `C:\Program Files\nodejs\node.exe`
+cd Workspace\VSCode\Intership\Session5\session5-react\
+clear
+nvim
+clear
+clearr
+clear
+npm start dev
+cd session5-react\
+clear
+npm start dev
+npm dev
+npm run dev
+clear
+CLEAR
+clear
+npm i electron --save-dev
+clear
+touch src/electron.js
+clear
+npm run start
+electron electron.js
+electron index.js
+clear
+npm run build
+clear
+electron .
+clear
+electron dist\index.html
+clear
+electron .\dist\index.html
+cd Workspace\VSCode\Intership\Session1\
+ls
+npm run start
+electron .\dist\index.html
+cd Workspace\VSCode\Intership\Session5\session5-react\
+ls
+cd dist\
+ls
+electron index.html
+tree /f
+electron index.html
+npm run start
+cd 
+cd Workspace\VSCode\Intership\Session5\session5-react\dist\
+http-server --cors
+clear
+electron index.html
+cd ..
+rm -rf dist
+npm run build
+npm run start
+vite
+clear
+npm create-react-app electron-react-demo
+cd Workspace\VSCode\Intership\Session5\
+clear
+stat .
+stat */*
+clear
+du
+cd ..
+clear
+cd ..
+ls
+cd ..
+ls
+cd Javascript\
+ls
+cd ..
+fzf
+cd
+fzf
+cd Workspace\VSCode\Intership\Session1
+ls
+electron index.html
+npx create-react-app electron-react-demo
+du
+clear
+npm init
+clear
+npm install electron
+cd electron-react-demo\
+clear
+npm install electron
+npm audit
+npm audit fix
+npm audit fix --force
+clear
+cd ..
+rm -rf electron-react-demo
+rm -rf
+rm -rf *
+npx create-react-app electron-react-demo
+clear
+cd electron-react-demo\
+npm install electron
+npx run start
+npm run start
+clear
+npm run build
+clear
+electron .
+electron .\build\index.html
+cd..
+cd ..
+cd electron-react\electron-react-demo\
+electron .
+electron .\build\index.html
+cd electron-react\electron-react-demo\
+cd Workspace\VSCode\Intership\electron-react\electron-react-demo\build\
+electron index.html
+cd Workspace\VSCode\Intership\Session1\
+ls
+npm run build
+serve
+clear
+wait-on
+clear
+nvim
+clear
+cd ..
+cd electron-react\electron-react-demo\
+ls
+cd dist\
+cd build\
+http-server --cors
+electron index.html
+clear
+npm rin dev
+npm run dev
+clear
+npm run build
+clear
+npm run build
+clear
+npm run build
+cd Workspace\VSCode\
+du
+clear
+cd Workspace\VSCode\
+du
+cd
+du | sort-by physical | reverse
+npm run dev
+clear
+cd /
+clear
+du
+du | sort-by physical | reverse
+clea
+clear
+npm init -y
+clear
+mkdir backend
+mkdir frontend
+clear
+nopm i nodemon express mongoose
+npm i nodemon express mongoose
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+node --trace-deprecation
+npx nodemon backend/index.js --trace-deprecation
+clear
+npx run dev
+npm run dev
+clear
+npm run dev
+clear
+git init
+touch .gitignore
+clear
+npm run dev
+clear
+gh repo create dev-express-backend --public
+git remote add origin git@github.com:Chethan-L701/dev-express-backend.git
+git status
+clear
+git status
+clear
+git add .
+git status
+clear
+git status
+clear
+git add .
+git commit -m "created repo"
+git branch -m main
+git push origin main
+clear
+npm run dev
+clear
+git add .
+clear
+git commit -m "added patch request for the book route"
+git push origin main
+http-server --cors
+cd Workspace\VSCode\Intership\Session1\
+node --version
+node main.js
+clear
+node main.js
+cd Workspace\VSCode\Intership\Session1\
+clear
+cd Workspace\VSCode\Intership\Session6
+ls
+nvim
+scoop status
+scoop update
+scoop status
+scoop update scoop
+scoop update fzf
+scoop install wezterm
+caergo install wezterm
+cargo install wezterm
+scoop install extras/wezterm
+scoop bucket add extras
+scoop install extras/wezterm
+clear
+fzf
+ranger
+wezterm
+clear
+spicetify upgrade
+spicetify restore backup apply
+firefox --kisok
+cd AppData\Local\nvim\
+nvim
+clear
+cd 
+cd Workspace\VSCode\Intership\Session6
+clear
+npm run dev
+clear
+npm run dev
+clear
+nvim
+clear
+git pull origin main
+clear
+npm run dev
+npm create vite@latest frontend --template react
+npm install
+cd frontend\
+npm install
+clear
+cd frontend\
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm run dev
+iclear
+clear
+cd Workspace\VSCode\Intership\Session7
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+cd
+cd Workspace\VSCode\Intership\Session7
+nvim
+npm install react-router-dom
+cd Workspace\
+mkdir Plane
+cd Plane\
+git clone https://github.com/pranavk22/case-study.git
+clear
+code .
+cd case-study\flight-booking-frontend\
+clear
+npm install
+clear
+cd frontend\
+cd ..
+npm create vite@latest frontend --template react
+cd frontend\
+clear
+npm run dev
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+cd Workspace\VSCode\Intership\Session7
+npm run dev
+c:\Users\Cheth\Workspace\Airbus\frontend
+cd frontend\
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install react-router-dom
+clear
+npm install react-icons
+cd Workspace\VSCode\Intership\Session7
+cd Workspace\
+ls
+cd VSCode\
+ls
+cd Intership\
+ls
+npm run dev
+clear
+cd frontend\
+cd backend
+npm init -y
+cd Workspace\
+cd Intership\
+cd VSCode\Intership\session7\
+cd Workspace\VSCode\Intership\Session7
+cd backend\
+nvim
+cd ..\..\session6\backend\
+nvim
+cd ..
+ls
+npm install mongoose express nodemon
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+clear
+cd frontend\
+npm install axios
+clear
+npm install cors
+clear
+nvim
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+nvim
+cd ..
+cd backend\
+npm install cors
+npm run dev
+clear
+cd Downloads\compressed\
+cd session_6\
+npm run dev
+npm run dev
+cd frontend\
+cd backend\
+cd frontend\
+npm install react-modal
+cd Downloads\compressed\
+git init
+git status
+git add .
+git rm --cached .
+git rm -r --cached .
+clear
+git add .gitignore
+git add frontend\.gitignore
+git add backend\.gitignore
+git add .
+clear
+git status
+git commit -m "new project"
+git branch -m main
+gh repo create user-management-system --public
+git remote add origin git@github.com:Chethan-L701/user-management-system.git
+git push origin main
+cat */* | wc -l
+clear
+cd Workspace\Airbus\
+du
+clear
+cd Workspace\Airbus\backend\
+npm run dev
+cd frontend\
+cd backend\
+git status
+git add .
+git commit -m "fix typos"
+git push origin main
+scoop update
+rustup upgrade
+clear
+node --version
+clear
+rustc --version
+clear
+scoop list
+scoop status
+sccop update ripgrep
+scoop update ripgrep
+clear
+winget upgrade
+winget upgrade Git.Git
+spicetify upgrade
+spicetify restore backup apply
+spicetify auto --transparent-window-controls
+winget upgrade
+winget upgrade nushell.nushell
+nu --version
+help nu
+nu --help
+nu --version
+winget upgrade CMake
+winget upgrade
+winget upgrade GitHub.cli
+spicetify --version
+winget upgrade LLVM
+nvim
+clear
+CLEAR
+NVIM
+clear
+clear clear
+clear
+cd Workspace\Python\
+clear
+ls
+mkdir demo
+cd demo
+touch demo.py
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+cd
+cd Workspace\Python\demo\
+nivm
+clear
+py demo.py
+nvim
+clear
+scoop status
+scoop update
+scoop status
+scoop update ripgrep
+clang -v
+clear
+winget upgrade LLVM
+winget upgrade
+clear
+cd Workspace\
+du
+nu config
+nu --config
+celar
+clear
+nu --help
+nu --ide-hover
+clear
+history
+history | fzf
+cd
+$env
+$env.config
+clear
+code C:\Users\Cheth\AppData\Roaming\nushell\env.nu
+$env.nu_config
+ls | where name == "session.nvim"
+ls | where name == "session.nvim" or name == "session.vim"
+ls | where name == "session.nvim" or name == "session.vim" | length
+mkdir demo
+cd demo
+ls | where name == "session.nvim" or name == "session.vim" | length
+clear
+cd ..
+rm demo
+cd demo
+clear
+ls | where name == "session.nvim" or name == "session.vim" | length
+ls | where name == "session.nvim" or name == "session.vim" | <\n>
+ls | where name == "session.nvim" or name == "session.vim" | get name
+ls | where name == "session.nvim" or name == "session.vim" | get name$1
+ls | where name == "session.nvim" or name == "session.vim" | get name.1
+ls | where name == "session.nvim" or name == "session.vim" | sort-by modified 
+ls | where name == "session.nvim" or name == "session.vim" | sort-by modified | reverse
+ls | where name == "session.nvim" or name == "session.vim" | sort-by modified | reverse | get name.0
+vi
+clear
+status
+clear
+mommy
+cargo mommy 
+cargo mommy test
+clear
+mommy
+cd Videos\
+ffplay 2023-11-30_12-19-52.mkv
+winget upgrade
+cd Workspace\
+ls
+cd VSCode
+ls
+mkdir JavaScript
+cd JavaScript\
+mkdir manipulate_json
+cd manipulate_json\
+code .
+tsc init
+tsc --init
+npm init -y
+npm run start
+node --version
+cd Workspace\Airbus\
+cd backend\
+cd Workspace\Airbus\backend\
+tsc
+clear
+tsc
+alias start="npm dev start"
+alias start = "npm dev start"
+alias start = npm dev start
+clear
+start
+alias start = (npm dev start)
+alias start = ( npm dev start )
+ll
+npm run start
+scoop status
+scoop update
+scoop status
+sccop update ripgrep
+scoop update ripgrep
+winget upgrade
+spicetify --version
+alias start = npm dev start
+start
+alias start = npm run start
+start
+npm
+npm update
+scope
+scope commands
+winget upgrade
+nvim
+clear
+cd Workspace\Airbus\backend\
+cd ..
+clear
+status
+nvim
+status
+git rm --cached session.vim
+ls
+git rm --cached session.vim
+clear
+git status
+.gitignore
+nvim
+vi
+clear
+vi
+clear
+status
+git add .gitignore
+status
+git commit -m "update .gitignore file"
+cd Workspace\VSCode\
+ls
+cd JavaScript\
+nvim
+cd manipulate_json\
+nvim
+clear
+cd backend\
+cd frontend\
+which tail.exe 
+clear
+scoop status
+scoop update
+scoop status
+winget upgrade
+winget upgrade CMake
+winget upgrade
+winget upgrade Spicetify
+winget upgrade Spicetify --force
+spicetify --version
+spicetify restore backup apply
+spicetify auto --transparent-window-controls
+winget upgrade
+cd Workspace\C++\
+mkdir misc
+cd misc\
+nvim
+clangd
+clang
+clang++
+clear
+llvm
+clang++
+clear
+cd Workspace\C++\
+cd misc\
+clear
+clang++ -0 test to_string.cpp
+clang++ -o test to_string.cpp
+.\test
+cd Workspace\C++\AdventOfCode2023\
+ls
+cd out
+ls
+cd build\
+ls
+cd ..
+cmake -G Ninja ..
+cd ..
+nvim CMakeLists.txt
+cd out
+cmake -G Ninja ..
+ninja
+.\AdventOfCode2023.exe
+cd ..
+nvim CMakeLists.txt
+cd out
+ls
+ls | where name != "build"
+ls | where name != "build" | rm -rf
+ls | where name != "build" | each { |it| ^echo $it}
+ls | where name != "build" | each { |it| ^echo $it.name}
+ls | where name != "build" | each { |it| ^rm -rf $it.name}
+ls
+clear
+cd Workspace\C++\AdventOfCode2023\
+git status
+git branch -m main
+git commit -m "repository for aoc2023"
+cd AppData\Local\
+ls
+cd ..
+cd Roaming\
+ls
+cd BetterDiscord\
+ls
+cd themes\
+ls
+cp ~\Downloads\DarkMatter.theme.css .\
+ls
+cd AppData\Roaming\BetterDiscord\themes\
+mv ~\Downloads\ClearVision_v6.theme.css .\
+clear
+cd AppData\Roaming\BetterDiscord\themes\
+cp ~\Downloads\discord.png .\
+ls
+cd AppData\
+ls
+cd
+cd \
+cd `Program Files\Microsoft Visual Studio\`
+ls
+cd \
+clear
+cd AppData\Roaming\spicetify\Themes\catppuccin\
+ls
+nvim
+ls
+spicetify restore backup apply
+spicetify auto --transparent-window-controls
+cd AppData\Roaming\spicetify\Themes\catppuccin\
+cd Workspace\Airbus\
+NVIM
+cd AppData\Local\nvim\
+cd 
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+clear
+vi
+clear
+scoop update
+scoop install ineutils
+clear
+sccop install pueue
+scoop install pueue
+firefox
+clear
+yes
+clear
+pueue add yes
+pueue
+pueue -d
+pueued -d
+clear
+pueue add yes
+pueue status
+pueue kill 0
+pueue status
+clear
+pueue status
+pueue kill
+pueue status
+pueue clean
+pueue status
+clear
+pueue add yes
+pueue status
+pueue kill
+pueue status
+clear
+def add [n] { mut sum = 0; for $i in 1..$n { $sum = $sum + $i; } }
+add 10
+def add [n] { mut sum = 0; for $i in 1..$n { $sum = $sum + $i; }; echo $sum; }
+add 10
+add 100
+add 1000
+add 100000
+add 10000000
+add 100000000
+add 50000000
+pueue add ( add 50000000 )
+clear
+pueue add add 50000000 
+alias add5 = add 50000000
+add5
+pueue add add5
+pueue add nvim
+clear
+pueue add yes
+pueue status
+killall pueue
+btop
+clear
+pueued -d
+pueue add yes
+pueue add add5
+clear
+pueue status
+pueue kill
+cd AppData\Local\nvim\
+winget upgrade
+scoop update
+scoop status
+clear
+nvim
+clear
+tree /f
+tree.exe /f
+tree /f
+clear
+tree /f | length
+tree /f | grep -G "lua"
+tree /f | grep -G cat
+clear
+tree /f
+clear
+status
+git add .
+status
+nvim .gitignore
+clear
+git rm --cached session.nvim
+clear
+git status
+clear
+git add .gitignore
+clear
+git commit -m "organinsed themes"
+git push origin main
+clear
+cd 
+cd Workspace\
+ls
+clear\
+cd 
+clear
+cleat
+clear
+cmd 
+cmd --help
+clear
+cleat
+clear
+clea
+clear
+history
+clear
+clear | fzf
+history | fzf
+$env.nu_config
+clear
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+vi
+clear
+nvim
+clear
+nvim
+vi
+cd Workspace\
+cd 
+cd Workspace\Rust\
+ls
+cd adder\
+nivm
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+vi
+clear
+vi
+clear
+cd 
+cd Workspace\Rust\leet_code\
+nvimm
+vi
+clear
+cd Workspace\Rust\leet_code\
+cd 
+cd AppData\Local\nvim\
+nvim
+vi
+clear
+vi
+nvim
+vi
+clear
+cd 
+cd Workspace\Rust\
+clear
+cd /
+ls
+$env.STARSHIP_SHELL
+$env.STARSHIP
+$env.STARSHIP_SESSION_KEY
+touch starship.toml
+clear
+ls
+nvim $env.nu_config
+clear
+$env.HOMEPATH
+source $env.nu_config
+nvim $env.nu_config
+$env.HOMEPATH
+nvim AppData\Roaming\nushell\env.nu
+clear
+$env.STARSHIP_CONFIG
+nvim $env.STARSHIP_CONFIG
+clear
+cd AppData\Local\nvim\
+git status
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+ls
+cd
+cd Workspace\Rust\
+ls
+cd pattern_matching_enum\
+clear
+status
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+cleara
+nvim $env.STARSHIP_CONFIG
+clear
+nvim
+clear
+cd AppData\Local\nvim\
+clear
+cd 
+xlear
+clear
+cd Workspace\Rust\pattern_matching_enum\
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+cd
+cd Workspace\Rust\pattern_matching_enum\
+nvim
+clear
+cd Workspace\Rust\pattern_matching_enum\
+nvim
+clear
+touch starship.toml
+ls
+rm starship.toml
+clear
+spicetify config custom_apps marketplace
+spicetify apply
+cd Workspace\C++\
+ls
+cd misc
+ls
+clear
+clang++ -o test to_string.cpp
+.\test
+clear
+nvim
+cd ..
+ls
+cd AdventOfCode2023\
+ls
+nvim
+cd AdventOfCode2023\
+cd Workspace\Airbus\
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+cd demo.cxx
+nvim demo.cpp
+clear
+ls
+status
+git add .
+git commit -m "cleanup in barbecue and lualine colors and icons"
+git push origin main
+clear
+fzf
+nvim (fzf)
+clear
+fvi
+clear
+history | fzf
+history | fzf | split-by "|"
+clearclear
+clear
+ls
+status
+clear
+cd
+clear
+ls
+status
+cleatr
+clear
+cd Workspace\C++\misc\
+ld
+ls
+clear
+touch day4.cpp
+clear
+cd Workspace\C++\AdventOfCode2023\include\
+nvim (fzf)
+clear
+clang++ -o day4 day4.cpp
+clang++ -o day4 day4.cpp ; .\day4
+clear
+clang++ -o day4 day4.cpp ; .\day4
+clang++ -o day4 day4.cpp -std=c++2a ; .\day4
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clwar
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+dif
+diff
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 ; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+gdb day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+nvim
+touch day4.js
+clear
+node day4.js
+node day4.js | save day4.json
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4 | save day4_cpp.txt
+clear
+:q
+cat Workspace\C++\misc\day4.cpp
+cat Workspace\C++\misc\day4.cpp | clip
+cp Workspace\C++\misc\input.txt Workspace\C++\AOCmisc\input.txt
+cd Workspace\C++\misc\
+clear
+clang++ -o day4 day4.cpp -std=c++20 -g; .\day4
+clear
+node day4.js
+clear
+node day4.js
+clear
+node day4.js
+clear
+node day4.js
+r
+clear
+mv .\day4.js .\day4.mjs
+clear
+ls
+node day4.mjs
+clear
+nvim
+clear
+scoop update
+scoop status
+scoop update openssl
+clear
+winget upgrade
+spicetify upgrade
+clear
+winget upgrade
+winget upgrade Spicetify --force
+spicetify apply
+winget upgrade CMake
+cd AppData\Local\nvim\
+clear
+nvim
+clear
+nvim
+nvim lua\search-conf.lua
+nvim lua\plugins.lua
+vi
+clear
+status
+clear
+git add .
+status
+cleat
+clear
+nvim
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+clear
+nvim
+status
+clear
+nvim
+clear
+winget upgrade Spotify
+spotify
+winget upgrade
+winget upgrade GitHub.cli
+winget upgrade
+cd AppData\Local\nvim\
+nvim
+lazygit
+status
+git push origin main
+clear
+cd
+cleat
+clear
+mkdir scripts
+cd scripts
+http get https://api.github.com/repos/Chethan-L701/nvim | get init.lua
+http get https://api.github.com/repos/Chethan-L701/nvim
+http get https://api.github.com/repos/Chethan-L701/nvim/main
+http get https://api.github.com/repos/Chethan-L701/nvim/main/init.lua
+http get https://api.github.com/repos/Chethan-L701/nvim/main/braches
+http get https://api.github.com/repos/Chethan-L701/nvim/main/braches/main
+http get https://api.github.com/repos/Chethan-L701/nvim/main/branches
+http get https://api.github.com/repos/Chethan-L701/nvim/main/branches/main
+http get https://api.github.com/repos/Chethan-L701/nvim/main/branches/master
+http get https://api.github.com/repos/Chethan-L701/nvim/main/branches/
+http get https://api.github.com/repos/Chethan-L701/nvim/branches
+http get https://api.github.com/repos/Chethan-L701/nvim/branches/main
+clear
+http get https://api.github.com/repos/Chethan-L701/nvim/branches/main
+http get https://api.github.com/repos/Chethan-L701/nvim/branches/main/init.lua
+http get https://api.github.com/repos/Chethan-L701/nvim/branches/main/
+http get https://api.github.com/repos/Chethan-L701/nvim/branches/main
+clear
+exit
+cmd
+clear
+mkdir src
+mkdir -p src/rust
+mkdir -r src/rust
+clear
+mkdir.exe -p src/rust
+tree /f
+clear
+nvim $env.nu_config
+clear
+nvim $env.nu_config
+cd scripts\src\rust\
+clear
+cd scripts\
+mkdir nu
+clear
+mkdir bin
+tree /f
+clear
+git init
+clear
+nvim .gitignore
+git add .gitignore
+clear
+status
+nvim .gitignore
+status
+clear
+status
+git add .gitignore
+clear
+status
+clear
+rustup upgrade
+clear
+cargo new template
+clear
+cd template\
+clear
+status
+status
+git add src
+status
+clear
+nvim
+clear
+cd ..\nu
+cd ..
+cd .
+cd ..
+cd nu\
+clear
+mkdir user
+cd user\
+clear
+touch mod.nu
+clear
+ls
+clea
+clear
+pwd
+pwd | split row '\'
+clear
+pwd | split row '\'
+clear
+pwd | split row '\' | save demo.txt
+nvim
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|"
+[] | append 10
+mut b = [] | append 10
+b \
+b 
+clear
+$b
+$b | append 20
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | each { |it| ^echo $it }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| ^echo $it }
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| $acc += $it }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| mut $acc += $it }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| mut $acc = $acc + $it }
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| mut $acc = $acc + $it }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| $acc + $it } 
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | reduce { |it, acc| $acc + ($it | into int ) } 
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | reduce { |it, acc| $acc + ($it | into int ) }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | reduce { |it, acc: int| $acc + ($it | into int ) }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | reduce { |it, acc|  ($it | into int ) + $acc}
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | reduce { |it, acc|  ($it | into int ) + ($acc | into int)}
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | reduce { |it, acc|  ($it | into int )}
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) }
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim ) } 
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim | where (get 2) != "" ) }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim | filter { |it| ($it | length) > 0} }
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim | filter { |it| ($it | length) > 0} } | echo
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim | filter { |it| ($it | length) > 0} } | echo 
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| ($it | length) > 0 }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| $it != "" or $it != " " }
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| ($it != "" or $it != " ") }
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| $it == "40"}
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| $it != " "}
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| $it != ""}
+clear
+echo "Card   1: 33 13 28 76 16 91 52 41 38 64 | 52 10  7 61 12 70 84 38 16 40  5 49 33 11 31 43 71 28 72 23 98 47 14 44 90" | split row : | get 1 | split row "|" | split row " " | each { |it|  ($it | str trim) } | filter { |it| $it != ""}
+cd scripts\nu\user\
+ls
+clear
+nvim demo.json
+open demo.json
+open demo.json | get SGPA
+clear
+open demo.json | get name
+clear
+nvim $env.STARSHIP_CONFIG
+c;ear
+clear
+nvim $env.STARSHIP_CONFIG
+clear
+code .
+clear
+use user
+cd ..
+use user
+clear
+use user
+use user/template
+use user/ template
+template 
+clear
+use user
+use user/ lang
+lang template 
+clear
+use user/ lang
+use user/ template
+template 
+template c++ 
+clear
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+touch ~\.config\nu\templates.json
+use user/ template
+template c++ 
+clear
+template c++ 
+use user/ template
+clear
+template c++ 
+clear
+cd
+cd .config\nu\
+template c++ 
+clear
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+use user/ template
+template c++ 
+clear
+template c++ 
+clear
+mkdir fuck/hi
+ls
+cd fuck\
+ls
+cd
+mkdir fuck/hello
+cd fuck\
+ls
+clear
+cd 
+rm -rf fuck
+clear
+cd fuck\
+clear
+$env.Path
+$env.Path | append "~/scripts/nu/"
+$env.Path | remove "~/scripts/nu/"
+cd ..
+$env.Path
+$env.Path | append "C:\Users\Cheth\scripts\nu"
+$env.Path | append "C:\\Users\\Cheth\\scripts\\nu"
+clear
+cd ..
+cd
+cd Workspace\C++\
+clear
+use user/ template
+clear
+$env.Path | append "C:\\Users\\Cheth\\scripts\\nu"
+clear
+use user/ template
+clear
+use user/ template
+use nu/user/ template
+clear
+$nu.default-config-dir
+$nu.env-path
+$nu.temp-path
+$nu
+clear
+cd
+nvim $env.nu_config
+cd 
+mv scripts\nu\user $nu.default-config-dir\user
+mv scripts\nu\user $nu.default-config-dir 
+cd $nu.default-config-dir
+ls
+ter
+clear
+use user/ template
+code $nu.config-path
+use AppData\Roaming\nushell\user
+use AppData\Roaming\nushell\user\ template
+clear
+alias modules = $nu.config-path
+alias modules = ($nu.config-path | into string )
+cdlear
+clear
+$env.NU_LIB_DIRS
+clear
+mv $nu.config-path\user ~\script\nu
+mv ($nu.config-path | path join user ) ~\script\nu
+clear
+code $nu.config-path
+code $nu.env-path
+$env.NU_LIB_DIRS
+clear
+$env.NU_LIB_DIRS
+code $nu.env-path
+$env.NU_LIB_DIRS
+clear
+code $nu.env-path
+$env.NU_LIB_DIRS
+code $nu.env-path
+$env.NU_LIB_DIRS
+$env.NU_LIB_DIRS | append ~/scripts/nu
+$env.NU_LIB_DIRS | get 1
+$env.NU_LIB_DIRS | get $1
+$env.NU_LIB_DIRS.2
+$env.NU_LIB_DIRS.1
+$env.NU_LIB_DIRS.0
+clear
+$env.NU_LIB_DIRS
+clear
+$env.NU_LIB_DIRS = $env.NU_LIB_DIRS | append ~/scripts/nu
+$env.NU_LIB_DIRS = $env.NU_LIB_DIRS | add ~/scripts/nu
+clear
+use dirs
+clear
+$env.NU_LIB_DIRS
+mkdir $env.NU_LIB_DIRS.0
+use user/ template
+clear
+template c++ 
+template c++ clear
+cd $env.NU_LIB_DIRS
+cd $env.NU_LIB_DIRS.0
+clear
+ls
+code .
+use user/ template
+template c++ 
+template c++ hello
+clear
+cd 
+cd Workspace\C++\
+clear
+use user/ template
+template c++ hello
+ls
+rm build include src
+rm -rf build include src
+clear
+cd .config\nu\
+ls
+use user/ template
+clear
+template c++ hello
+ls
+cd hello\
+ls
+clear
+cd ..
+rm -rf hello
+clear
+ls
+use user/ template
+template create c++ hello
+ls
+tree /f
+clear
+rm -rf hello
+use user/ template
+template create c++ hello
+clear
+use user/ template
+template create c++ hello
+ls
+cd hello\
+tree /f
+clear
+cd ..
+cd hello\
+tree /f
+clear
+cd ..
+rm -rf hello
+template create c++ hello -g
+clear
+rm -rf hello
+template create c++ hello -g
+cd hello\
+tree /f
+ls -a
+cd ..
+ls
+ll
+ls
+cd hello
+nvim
+clear
+cd ..
+nvim
+clear
+use user/ template
+rm -rf hello
+template create c++ hello -g
+cd hello
+nvim
+clear
+cd ..
+rm -rf hello
+clear
+let cmd = ["echo \"hi\""]
+cmd
+$cmd
+$cmd.0
+nu $cmd.0
+clear
+exec $cmd.0
+nu | help
+la
+ler
+cl
+clear
+^$"echo hi"
+^$"echo"
+let cmd = ["echo \"hi\""]
+^$"($cmd)"
+echo "hi"
+^$"($cmd)"
+^$"($cmd.0)"
+$cmd.0
+^$cmd.0
+let cmd = [echo hi]
+$cmd.0
+let cmd = ['echo hi']
+$cmd.0
+clear
+echo hi
+^$cmd.0
+clear
+nu -c $cmd.0
+clear
+exit
+nu -c "echo \"hi\""
+clear
+cd Workspace\C++\
+ls
+use user/ template
+template create c++ hello -g
+open ~\.config\nu\templates.json 
+open ~\.config\nu\templates.json | get c++
+open ~\.config\nu\templates.json | get c++ | get hi
+clear
+template create node hello -g
+clear
+use user/ template
+rm -rf hello
+clear
+use user/ template
+template create node hello -g
+ls
+cd hello
+ls
+clear
+cd ..
+rm -rf hello
+template create node hello -g
+rm -rf hello
+use user/ template
+template create node hello -g
+clear
+cd hello\
+tree /f
+nvim
+clear
+cd ..
+rm -rf hello
+template create node hello -g
+clear
+cd hello\
+tree /f
+node
+clear
+node src\index.js
+clear
+:q
+nvim
+clear
+cd ..
+rm -rf hello
+ps | sort-by mem | reverse
+ps | sort-by mem | reverse | where name == nvim
+clear
+rm -rf hello
+ps | sort-by mem | reverse | where name == node
+clear
+rm -rf hello
+btop
+clear
+rm -rf hello
+clear
+template create ts hello -g
+tsc --init
+clear
+ls
+rm tsconfig.json
+clear
+rm -rf hello
+clear
+template create ts hello -g
+clear
+cd hello\
+nvim
+tree /f
+cd ..
+rm -rf hello
+clear
+template create ts hello -g
+cleaer
+clear
+cd hello\
+tree /f
+clear
+nvim
+tsc
+nvim
+clear
+tsc
+cler
+clear
+tree /f
+clear
+nvim
+tsc
+clear
+node out\index.js
+tsc
+node out\index.js
+tree /f
+clear
+tsc
+tree /f
+clear
+tsc
+tree /f
+clear
+tsc
+tree /f
+clear
+node out\index.js
+clear
+nvim
+clear
+nvim templates.json
+clear
+cd Workspace\C++\
+use user/ template
+template create c++ day3
+cd day3\
+ls
+clear
+cd Workspace\C++\AdventOfCode2023\include\
+nvim essencials.hpp
+cd Workspace\C++\
+ls
+cd misc\
+ls
+clear
+cd build\
+cmake -G Ninja ..
+clear
+ninja
+.\day5.exe
+ninja
+.\day5.exe
+ninja
+.\day5.exe
+clear
+ninja
+.\day5.exe
+clear
+pwd
+clear
+ninja
+.\day5.exe
+clear
+cd Workspace\C++\
+ls
+cd ranges-and-views\
+clear
+ls
+:q
+cd ..
+rm -rf ranges-and-views
+clear
+template create c++ ranges
+use user/ template
+template create c++ ranges
+clear
+cd ranges\
+ls
+clear
+cd build\
+clear
+cmake -G Ninja ..
+clear
+cmake -G Ninja ..
+clear
+ninja
+r
+clear
+ninja
+.\ranges.exe
+clear
+cmake -G Ninja ..
+ninja
+clear
+ninja
+clear
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja
+.\ranges.exe
+clear
+ninja;.\ranges.exe
+ninja
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+cleat
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+cd Workspace\C++\
+cd ranges\
+nvim
+clear
+ninja;.\ranges.exe
+clear
+cd build\
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+ninja;.\ranges.exe
+clear
+cd Workspace\C++\
+clear
+use user/ template
+template create c++ ranges
+clear
+ls
+rm -rf hello day3
+rm -rf hello 
+clear
+rm -rf hello 
+rm -rf day3
+clear
+ls
+cd AOCmisc\
+ls
+clear
+rm -rf *
+clear
+template create c++ day6
+clear
+cd day6\
+clear
+cd build\
+clear
+cmake -G Ninja ..
+clear
+ninja
+clear
+ninja
+clear
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+nvim
+clear
+cd ..
+cd ranges\
+nvim
+cd ..
+cd AOCmisc\day6\
+clear
+ninja
+cd build\
+ls
+ninja
+.\day6.exe
+clear
+.\day6.exe
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+clear
+ninja
+.\day6.exe
+clear
+.\day6.exe
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+clear
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+clear
+.\day6.exe
+ninja
+claer
+clear
+ninja
+.\day6.exe
+clear
+.\day6.exe
+clear
+.\day6.exe
+clear
+ninja
+.\day6.exe
+clear
+ninja
+.\day6.exe
+clear
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+nvim
+clear
+ninja
+cd build\
+ninja
+clear
+.\day6.exe
+clear
+.\day6.exe
+ninja
+.\day6.exe
+ninja
+.\day6.exe
+clear
+cd ..
+clear
+template create c++ day3
+clear
+cd day3\
+cd Workspace\C++\AOCmisc\day6\
+clear
+cd build\
+cmake -G Ninja ..
+clear
+pwd
+clear
+ninja
+.\day3.exe
+clear
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+clear
+cd AppData\Local\nvim\
+nvim
+clear
+cd Workspace\Rust\
+ls
+cargo new AOC
+clear
+cd AOC\
+nvim
+rm -rf *
+cd ..
+rm AOC\
+rm -rf AOC\
+clear
+cargo new aoc
+clear
+cd aoc\
+clear
+cler
+clear
+carg run
+cargo run
+clear
+mommy
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+echo "1abc2<\n>pqr3stu8vwx<\n>a1b2c3d4e5f<\n>treb7uchet" | save input.txt
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+nvim
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+r
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+iclear
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+nvim
+clear
+winget upgrade
+sfc.exe
+clear
+sfc.exe
+sfc.exe /SCANNOW
+clear
+winget upgrade
+winget upgrade Spotify
+winget upgrade Spicetify --force
+spicetify upgrade
+spicetify apply
+spicetify re
+spicetify restore backup apply
+spicetify backup apply
+spicetify auto --transparent-window-controls
+winget upgrade CMake
+winget upgrade
+winget upgrade kdenlive
+clear
+cd Workspace\Rust\aoc\nvim
+cd Workspace\Rust\aoc\
+cler
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+nvim
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+nvim
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+iclear
+clear
+cargo run
+clear
+cargo run
+iclear
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+load-env {RUST_BACKTRACE:1}
+cargo run
+Time:        46     80     78     66
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+nvim
+clea
+rclear
+clear
+cd
+cd AppData\Local\nvim\
+nvim
+cd
+nvim
+clear
+status
+clear
+nvim .gitignore
+status
+clear
+nvim
+status
+clear
+mv *.txt res/
+tree /f
+clear
+cargo run
+clear
+cargo run
+clear
+nvim
+clear
+status
+clear
+git add .
+clear
+gh repo create AOC-rust --public
+git remote add origin git@github.com:Chethan-L701/AOC-rust.git
+git commit -m "day - 1, 2, 4, 6"
+clear
+git push origin main
+git branch -m main
+clear
+git push origin main
+clear
+winget upgrade
+clear
+cd Workspace\Rust\aoc\
+clear
+cleaer
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+cd Workspace\Rust\aoc\
+clear
+cargo run
+cd Workspace\Rust\aoc\
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+clera
+clear
+cargo run
+clear
+status
+git add src\main.rs src\day4\mod.rs
+clear
+git commit -m "fixed a problem in day4"
+clear
+git pu
+git push origin main
+clear
+git add src\main.rs src\day4\mod.rs
+git commit -m "code cleanup"
+git push origin main
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+rg
+ls | rg script
+clear
+ls | rg script
+ls | rg script | wc -l
+ls | rg script | wc
+ls | rg script | wc -1
+ls | rg script | wc -l
+clear
+cd Workspace\Rust\
+ls
+touch demo,rs
+ls
+mv demo,rs demo.rs
+clear
+cargo demo.rs
+nvim demo.rs
+rm demo.rs
+clear
+ls
+cargo new demo
+cd demo
+cleear
+clear
+cargo run
+clear
+nvim
+clear
+cd demo
+clear
+cd Workspace\Rust\demo
+clear
+nvim
+clear
+cd
+clear
+cleat
+clear
+cd Workspace\Rust\demo
+nvim --help
+nvim --noplugins
+clear
+nvim --startuptime
+nvim --help
+nvim --startuptime ./time.txt
+clear
+rm time.txt
+clear
+nvim 
+cd ../..
+cd C++\
+ls
+cd AOCmisc\
+ls
+cd ..
+clear
+winget upgrade
+uptime.exe 
+clear
+winget upgrade nu
+winget upgrade
+winget upgrade gh
+winget upgrade
+winget upgrade kdenlive gimp
+winget upgrade kdenlive
+winget upgrade gimp
+winget upgrade GIMP
+winget upgrade
+gimp
+winget
+winget upgrade
+winget upgrade obs
+winget upgrade obs studio
+winget upgrade XPFFH613W8V6LV
+whoami
+cal
+clear
+cal
+cal | get sunday
+clear
+cal | get wedsdar
+cal | get wedsday
+cal | get wednesday
+clea
+clear
+cal | get wednesday
+clear
+history | rg code
+history | rg ^code
+history | rg -G "^code"
+cleaer
+clear
+rg -h
+rg -h | rg regex
+history | rg -e "^code"
+history | rg -e "code"
+history | rg -e "code$"
+clear
+rg -h | rg regex
+cd Workspace\Rust\demo
+cat .\src\main.rs | rg main
+cat .\src\main.rs
+open src\main.rs 
+open src\main.rs  | rg main
+clear
+open src\main.rs  | rg main
+clear
+ls | rg script | wc -l
+ls | rg main | wc -l
+open src\main.rs | rg main | wc -l
+clear
+open src\main.rs | rg main 
+clear
+open src\main.rs ;rg main
+rg maibn
+rg main
+cleat
+cleaer
+clear
+cd 
+rg main
+clear
+rg -e "^main"
+rg -e "^#include"
+rg -e "^#include" | wc -l
+clear
+scoop update
+scoop status
+scoop update openssl
+clear
+cd Workspace\
+ls
+mkdir CN
+cd CN\
+clear
+git clone https://github.com/mdhn18/Site_to_site_VPN_on_Packet_Tracer.git
+clear
+cd Workspace\CN
+ls
+cd Site_to_site_VPN_on_Packet_Tracer\
+ls
+clear
+cd Workspace\Rust\demo\
+clear
+cargo run
+cd Workspace\CN
+clear
+car
+cargo run
+clear
+nvim
+clear
+cd ..
+cargo new quadratic_eq
+cd quadratic_eq\
+clear
+cargo run
+CLEAR
+clear
+nvim
+clear
+cd ..
+cargo new palindrome
+cd palindrome\
+clear
+cargo run
+clear
+nvim
+:
+clear
+nvim
+cd 
+cd AppData\Local\nvim\
+nvim
+clear
+nvim
+clea
+clear
+nivm
+nvim
+clear
+status
+clear
+git diff
+clea
+clear
+nivm
+nvim
+clear
+ls
+rm -rf .cache\
+rm -rfv .cache\
+clear
+cd AppData\Roaming\
+ls
+cd ..
+cd Local\
+ls
+cd `Riot Games\`
+ls
+cd `Riot Client\`
+ls
+cd Logs\
+ls
+explorer.exe 
+cd `C:\Riot Games\`
+ls
+cd `Riot Client\`
+ls
+du
+cd
+clear
+cd `C:\Riot Games\`
+du
+cd backend\
+cleaer
+clear
+npm run dev
+clea
+clear
+66777b66
+clear
+cd Workspace\Rust\
+clear
+cd aoc\
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+:q
+cargo run
+cd Workspace\Rust\aoc\
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo runclear
+cargo runclearclear
+clear
+cargo run
+r
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+nvim
+cd AppData\Local\nvim\
+clear
+status
+clear
+git add .
+git diff
+git commit -m "schedelued revision - 1"
+git push origin main
+clear
+cd Workspace\Rust\
+cd nvim
+cd adder\
+bc
+clea
+clear
+cd Workspace\C++
+ls
+cd misc\
+ls
+clear
+meta.cpp
+touch meta.cpp
+clear
+clang-format -style=llvm -dump-config | save .clang-format
+clear
+nvim
+clear
+cd $env.NU_LIB_DIRS
+cd
+cd AppData\Roaming\nushell\
+ls
+tree /f
+clear
+git int
+git init
+gh repo create nushell-conf --public
+git remote add origin git@github.com:Chethan-L701/nushell-conf.git
