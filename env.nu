@@ -131,5 +131,7 @@ def vi [] {
 load-env { STARSHIP_CONFIG  : $"($env.HOMEPATH)/.config/starship/starship.toml" }
 alias status = git status
 alias mkdir_ = mkdir.exe
+alias clang-format-llvm = clang-format -style=llvm -dump-config
 mkdir ~/.cache/starship
+
 starship init nu | save -f ~/.cache/starship/init.nu

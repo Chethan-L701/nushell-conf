@@ -5302,3 +5302,102 @@ git int
 git init
 gh repo create nushell-conf --public
 git remote add origin git@github.com:Chethan-L701/nushell-conf.git
+git add .
+git commit -m "new repo for nushell config files and scripts"
+git branch -m main
+clear
+git push origin main
+clear
+nvim
+clear
+.
+source env.nu
+nvim
+source env.nu
+nvim
+vi
+source env.nu
+source config.nu
+config
+clear
+clang-format-llvm
+clear
+open clang-format-llvm
+clear
+cd AppData\Roaming\nushell\
+clear
+git status
+nvim
+clear
+code .
+clear
+use user/ template
+template create c++ day3 --config
+ls
+rm -rfv day3
+clear
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+clear
+template create c++ day3 --config
+rm -rfv day3
+clear
+use user/ template
+template create c++ day3 --config
+clear
+rm -rfv day3
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+clear
+template create c++ day3 --config
+rm -rfv day3
+clear
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+rm -rfv day3
+clear
+use user/ template
+template create c++ day3 --config
+clear
+use user/ template
+template create c++ day3 --config
+template create c++ day3
+clear
+rm -rfv day3
+clear
+template create c++ day3
+clear
+use user/ template
+template create c++ day3
+clear
+use user/ template
+template create c++ day3
+template create ts hello -g -c
+template create node hello -g -c
+cd hello\
+ls
+tree /f
+clear
+cd ..
+rm -rfv day3 hello
+clear
+ls
+clear
+status
