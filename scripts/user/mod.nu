@@ -21,7 +21,7 @@ export module template {
 
         mkdir $project
         cd $project
-        
+
         # run pre project commands
         if "pre-command" in $preset and ($preset | get pre-commands | length) > 0 {
             for $command in ($preset | get pre-commands) {

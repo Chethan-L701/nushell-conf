@@ -100,27 +100,6 @@ $env.NU_PLUGIN_DIRS = [
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
-def mommy [command = "test", ...args] {
-    let mood = ["chill" "thirsty" "yikes"]
-    let roles = ["mommy" "wifey" "Nee-san" "queen" "loli"]
-    let parts = ["pussy" "tongue" "kitty" "milk" "titty" "feets"]
-    let little = "boy/pet/cutie/baby"
-    let fucking = "whore/slut/bitch/pet/slave/puppy/boytoy"
-
-    load-env {
-        CARGO_MOMMYS_MOODS : $"($mood | get (random int 1..<($mood | length)))", 
-        CARGO_MOMMYS_ROLES : $"($roles | get (random int 1..<($roles | length)))", 
-        CARGO_MOMMYS_PARTS : $"($parts | get (random int 1..<($parts | length)))", 
-        CARGO_MOMMYS_LITTLLE : $little,
-        CARGO_MOMMYS_FUCKING: $fucking
-    }
-    mut fcmd = $command
-    for $arg in $args {
-        $fcmd = $fcmd + " " + $arg  
-    }
-    cargo mommy $fcmd
-}
-
 def vi [] {
     if ((ls | where name == "session.vim" or name == "session.nvim" | length) != 0) {
         nvim -S (ls | where name == "session.nvim" or name == "session.vim" | sort-by modified | reverse | get name.0)
@@ -134,4 +113,5 @@ alias mkdir_ = mkdir.exe
 alias clang-format-llvm = clang-format -style=llvm -dump-config
 mkdir ~/.cache/starship
 
-starship init nu | save -f ~/.cache/starship/init.nu
+# starship init nu | save -f ~/.cache/starship/init.nu
+oh-my-posh init nu
