@@ -5322,3 +5322,8 @@ ls
 git status
 git diff
 clear
+git add .
+git commit -m "removed some stuff"
+git push origin main
+clear
+git status
