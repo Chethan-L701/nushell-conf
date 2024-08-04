@@ -229,7 +229,7 @@ $env.config = {
     use_ansi_coloring: true
     bracketed_paste: true # enable bracketed paste, currently useless on windows
     edit_mode: emacs # emacs, vi
-    shell_integration: false # enables terminal shell integration. Off by default, as some terminals have issues with this.
+    #shell_integration: false # enables terminal shell integration. Off by default, as some terminals have issues with this.
     render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
     use_kitty_protocol: false # enables keyboard enhancement protocol implemented by kitty console, only if your terminal support this
 
@@ -757,3 +757,29 @@ $env.config = {
 }
 # use ~/.cache/starship/init.nu
 source ~/.oh-my-posh.nu
+
+
+def vi [] {
+    if ((ls | where name == "session.vim" or name == "session.nvim" | length) != 0) {
+        nvim -S (ls | where name == "session.nvim" or name == "session.vim" | sort-by modified | reverse | get name.0)
+    } else {
+        nvim
+    }
+}
+load-env { STARSHIP_CONFIG  : $"($env.HOMEPATH)/.config/starship/starship.toml" }
+load=env {VCPKG_ROOT : "C:\\vcpkg"}
+
+alias status = git status
+alias mkdir_ = mkdir.exe
+alias clang-format-llvm = clang-format -style=llvm -dump-config
+alias ll = ls -la
+alias nixos = wsl -d NixOS
+alias tmux = wsl tmux
+
+mkdir ~/.cache/starship
+
+oh-my-posh init nu  --config $"($env.USERPROFILE)/.config/oh-my-posh/nord.omp.json" 
+
+if not ('NVIM' in $env) {
+    fastfetch
+}

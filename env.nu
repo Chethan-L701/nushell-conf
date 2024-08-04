@@ -1,6 +1,4 @@
 # Nushell Environment Config File
-#
-# version = "0.86.0"
 
 def create_left_prompt [] {
     let home =  $nu.home-path
@@ -100,18 +98,3 @@ $env.NU_PLUGIN_DIRS = [
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
-def vi [] {
-    if ((ls | where name == "session.vim" or name == "session.nvim" | length) != 0) {
-        nvim -S (ls | where name == "session.nvim" or name == "session.vim" | sort-by modified | reverse | get name.0)
-    } else {
-        nvim
-    }
-}
-load-env { STARSHIP_CONFIG  : $"($env.HOMEPATH)/.config/starship/starship.toml" }
-alias status = git status
-alias mkdir_ = mkdir.exe
-alias clang-format-llvm = clang-format -style=llvm -dump-config
-mkdir ~/.cache/starship
-
-# starship init nu | save -f ~/.cache/starship/init.nu
-oh-my-posh init nu
